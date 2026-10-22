@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Самплан: сравнение</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#f1f2f8;--panel:#fff;--ink:#1b1e33;--soft:#666b86;--line:#e1e4f0;--mint:#14a383;--mint-soft:#dcf4ec}
+@media (prefers-color-scheme:dark){:root{--bg:#0e1126;--panel:#191c37;--ink:#eef0fa;--soft:#9da2c2;--line:#2a2e50;--mint:#35d0a6;--mint-soft:#143a35}}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);font:600 14px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif}
+body{display:flex;flex-direction:column}
+.bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:8px 10px calc(8px + env(safe-area-inset-top,0px)) 10px;padding-top:calc(8px + env(safe-area-inset-top,0px));background:var(--panel);border-bottom:1px solid var(--line)}
+.bar b{font-size:15px;margin-right:4px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0;padding:0;min-width:0}
+.seg button{border:0;background:none;color:var(--soft);font:inherit;padding:7px 10px;min-height:36px}
+.seg button[aria-pressed="true"]{background:var(--mint-soft);color:var(--mint)}
+label.op{display:inline-flex;align-items:center;gap:6px;color:var(--soft)}
+label.op input{width:110px}
+.stage{flex:1;display:flex;justify-content:center;align-items:flex-start;gap:16px;overflow:auto;padding:12px 8px}
+.col{display:flex;flex-direction:column;align-items:center;gap:6px}
+.col span{color:var(--soft);font-size:12px}
+.frame{position:relative;width:393px;max-width:100%;height:calc(100dvh - 120px);border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--panel)}
+.frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:var(--bg)}
+.stage.overlay .col.next{display:none}
+.stage.side .frame iframe.next-over{display:none}
+.hint{color:var(--soft);font-size:12px;padding:0 10px 8px;background:var(--panel)}
+</style>
+</head>
+<body>
+<div class="bar">
+  <b>Сравнение</b>
+  <fieldset class="seg" id="mode" aria-label="Вид">
+    <button type="button" data-m="overlay">Наложение</button>
+    <button type="button" data-m="side">Рядом</button>
+  </fieldset>
+  <label class="op" id="opWrap">новое <input id="op" type="range" min="0" max="100" value="50" aria-label="Прозрачность нового приложения"> <span id="opV">50%</span></label>
+  <fieldset class="seg" id="tabs" aria-label="Вкладка">
+    <button type="button" data-v="day" data-r="">Сегодня</button>
+    <button type="button" data-v="ch" data-r="ch">Вызовы</button>
+    <button type="button" data-v="ppl" data-r="ppl">Люди</button>
+    <button type="button" data-v="life" data-r="life">Дела</button>
+    <button type="button" data-v="me" data-r="me">Профиль</button>
+  </fieldset>
+</div>
+<div class="hint" id="hint"></div>
+<div class="stage" id="stage">
+  <div class="col">
+    <span>Прототип (рабочая версия)</span>
+    <div class="frame">
+      <iframe id="proto" title="Прототип" src="/prokachka/"></iframe>
+      <iframe id="nextOver" class="next-over" title="Новое приложение поверх"></iframe>
+    </div>
+  </div>
+  <div class="col next">
+    <span>Новое приложение (Expo)</span>
+    <div class="frame"><iframe id="nextSide" title="Новое приложение"></iframe></div>
+  </div>
+</div>
+<script>
+(() => {
+  const NEXT = '/samplan-next/';
+  const $ = (id) => document.getElementById(id);
+  const stage = $('stage'), op = $('op'), over = $('nextOver'), side = $('nextSide'), proto = $('proto');
+  // localStorage can throw in private mode; the page works without it
+  const load = (k) => { try { return localStorage.getItem(k) } catch (e) { return null } };
+  const save = (k, v) => { try { localStorage.setItem(k, v) } catch (e) {} };
+
+  let mode = load('cmp-mode') || (innerWidth >= 860 ? 'side' : 'overlay');
+  let tab = load('cmp-tab') || 'day';
+
+  function setMode(m) {
+    mode = m; save('cmp-mode', m);
+    stage.className = `stage ${m}`;
+    $('opWrap').style.display = m === 'overlay' ? '' : 'none';
+    for (const b of $('mode').children) b.setAttribute('aria-pressed', String(b.dataset.m === m));
+    $('hint').textContent = m === 'overlay'
+      ? 'Новое приложение лежит поверх прототипа. Двигай ползунок: 0% — только прототип, 100% — только новое. Совпадает — картинка не «двоится».'
+      : 'Слева прототип, справа новое приложение. Вкладки переключаются в обоих сразу.';
+  }
+
+  function setOpacity(v) { over.style.opacity = v / 100; $('opV').textContent = `${v}%`; save('cmp-op', String(v)) }
+
+  function setTab(v) {
+    tab = v; save('cmp-tab', v);
+    const btn = [...$('tabs').children].find((b) => b.dataset.v === v);
+    for (const b of $('tabs').children) b.setAttribute('aria-pressed', String(b === btn));
+    const url = NEXT + (btn ? btn.dataset.r : '');
+    for (const f of [over, side]) if (f.getAttribute('src') !== url) f.setAttribute('src', url);
+    // Same origin: drive the prototype's own router (go() in 040-shell)
+    try { const w = proto.contentWindow; if (w && typeof w.go === 'function') { w.go(v); w.scrollTo(0, 0) } } catch (e) {}
+  }
+
+  $('mode').onclick = (e) => { const m = e.target.dataset?.m; if (m) setMode(m) };
+  $('tabs').onclick = (e) => { const v = e.target.dataset?.v; if (v) setTab(v) };
+  op.oninput = () => setOpacity(+op.value);
+  proto.addEventListener('load', () => setTimeout(() => setTab(tab), 600));
+
+  op.value = load('cmp-op') || '50';
+  setOpacity(+op.value);
+  setMode(mode);
+  setTab(tab);
+})();
+</script>
+</body>
+</html>
