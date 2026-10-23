@@ -1,9 +1,8 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Самплан</title>
     <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
     <style id="expo-reset">
@@ -23,13 +22,39 @@
         flex: 1;
       }
     </style>
-  <link rel="icon" href="/samplan-next/favicon.ico"/></head>
+  <link rel="icon" href="/samplan-next/favicon.ico"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Самплан" />
+    <meta name="theme-color" content="#eef1f8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#121527" media="(prefers-color-scheme: dark)" />
+    <link rel="apple-touch-icon" href="/samplan-next/icon-180.png" />
+    <link rel="manifest" href="/samplan-next/manifest.webmanifest" />
+  </head>
 
   <body>
     <!-- Use static rendering with Expo Router to support running without JavaScript. -->
     <noscript> You need to enable JavaScript to run this app. </noscript>
     <!-- The root element for your Expo app. -->
     <div id="root"></div>
-  <script src="/samplan-next/_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js" defer></script><script src="/samplan-next/_expo/static/js/web/__common-79035e61a85abcb35d35f8d5926b0375.js" defer></script><script src="/samplan-next/_expo/static/js/web/entry-78f6c46a189367eca8a4c850f651a6ad.js" defer></script>
+  <script src="/samplan-next/_expo/static/js/web/__expo-metro-runtime-8c088df87a31e4e6accd81c554ec290d.js" defer></script><script src="/samplan-next/_expo/static/js/web/__common-79035e61a85abcb35d35f8d5926b0375.js" defer></script><script src="/samplan-next/_expo/static/js/web/entry-11e7440b6293d3619e83dc2b7abebca2.js" defer></script>
+<script>
+if ('serviceWorker' in navigator) addEventListener('load', function () {
+  var had = !!navigator.serviceWorker.controller, ready = false;
+  navigator.serviceWorker.addEventListener('controllerchange', function () {
+    if (had && !ready) { ready = true; if (document.visibilityState === 'hidden') location.reload(); else window.__swReady = true; }
+  });
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible' && window.__swReady) location.reload();
+  });
+  navigator.serviceWorker.register('/samplan-next/sw.js', { scope: '/samplan-next/', updateViaCache: 'none' }).then(function (r) {
+    var check = function () { r.update().catch(function () {}); };
+    document.addEventListener('visibilitychange', function () { if (document.visibilityState === 'visible') check(); });
+    setInterval(check, 30 * 60e3);
+  }).catch(function () {});
+});
+</script>
 </body>
 </html>
