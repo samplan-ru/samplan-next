@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="samplan - iOS 26.2 - D16703C7-ACB8-490F-A155-6B10F30377D2" tests="7" failures="7" time="255.769" timestamp="2026-10-24T09:21:35">
+    <testcase id="tabs" name="tabs" classname="tabs" file="/Users/runner/work/prokachka-dev/prokachka-dev/native-out/ios/flows/01-tabs.yaml" time="65.541" timestamp="2026-10-24T09:21:35" status="ERROR">
+      <failure>Assertion is false: "Сегодня" is visible</failure>
+    </testcase>
+    <testcase id="life-dates" name="life-dates" classname="life-dates" file="/Users/runner/work/prokachka-dev/prokachka-dev/native-out/ios/flows/40-life-dates.yaml" time="79.626" timestamp="2026-10-24T09:22:41" status="ERROR">
+      <failure>No visible element found: "Годовщина свадьбы"</failure>
+    </testcase>
+    <testcase id="life-loans" name="life-loans" classname="life-loans" file="/Users/runner/work/prokachka-dev/prokachka-dev/native-out/ios/flows/40-life-loans.yaml" time="22.894" timestamp="2026-10-24T09:24:01" status="ERROR">
+      <failure>Assertion is false: "Календарь" is visible</failure>
+    </testcase>
+    <testcase id="life-piggy-form" name="life-piggy-form" classname="life-piggy-form" file="/Users/runner/work/prokachka-dev/prokachka-dev/native-out/ios/flows/40-life-piggy-form.yaml" time="21.606" timestamp="2026-10-24T09:24:23" status="ERROR">
+      <failure>Assertion is false: "Календарь" is visible</failure>
+    </testcase>
+    <testcase id="life-piggy" name="life-piggy" classname="life-piggy" file="/Users/runner/work/prokachka-dev/prokachka-dev/native-out/ios/flows/40-life-piggy.yaml" time="22.09" timestamp="2026-10-24T09:24:45" status="ERROR">
+      <failure>Assertion is false: "Календарь" is visible</failure>
+    </testcase>
+    <testcase id="life-rems" name="life-rems" classname="life-rems" file="/Users/runner/work/prokachka-dev/prokachka-dev/native-out/ios/flows/40-life-rems.yaml" time="21.993" timestamp="2026-10-24T09:25:07" status="ERROR">
+      <failure>Assertion is false: "Календарь" is visible</failure>
+    </testcase>
+    <testcase id="life-tools" name="life-tools" classname="life-tools" file="/Users/runner/work/prokachka-dev/prokachka-dev/native-out/ios/flows/40-life-tools.yaml" time="21.992" timestamp="2026-10-24T09:25:29" status="ERROR">
+      <failure>Assertion is false: "Календарь" is visible</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

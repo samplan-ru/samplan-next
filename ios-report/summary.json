@@ -1,0 +1,84 @@
+{
+ "screens": [
+  {
+   "id": "step-004-tapOnElement-Open",
+   "theme": "light",
+   "name": "step-004-tapOnElement-Open",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-004-tapOnElement-Open.jpg"
+  },
+  {
+   "id": "step-005-tapOnElement-(ContinueGot_itПродолжить)",
+   "theme": "light",
+   "name": "step-005-tapOnElement-(ContinueGot_itПродолжить)",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-005-tapOnElement-(ContinueGot_itПродолжить).jpg"
+  },
+  {
+   "id": "step-006-assertCondition-Сегодня",
+   "theme": "light",
+   "name": "step-006-assertCondition-Сегодня",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-006-assertCondition-Сегодня.jpg"
+  },
+  {
+   "id": "step-008-assertCondition-Календарь",
+   "theme": "light",
+   "name": "step-008-assertCondition-Календарь",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-008-assertCondition-Календарь.jpg"
+  },
+  {
+   "id": "step-009-scrollUntilVisible-Годовщина_свадьбы",
+   "theme": "light",
+   "name": "step-009-scrollUntilVisible-Годовщина_свадьбы",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-009-scrollUntilVisible-Годовщина_свадьбы.jpg"
+  }
+ ],
+ "flows": {
+  "light": [
+   {
+    "flow": "tabs",
+    "ok": false,
+    "why": "Assertion is false: \"Сегодня\" is visible"
+   },
+   {
+    "flow": "life-dates",
+    "ok": false,
+    "why": "No visible element found: \"Годовщина свадьбы\""
+   },
+   {
+    "flow": "life-loans",
+    "ok": false,
+    "why": "Assertion is false: \"Календарь\" is visible"
+   },
+   {
+    "flow": "life-piggy-form",
+    "ok": false,
+    "why": "Assertion is false: \"Календарь\" is visible"
+   },
+   {
+    "flow": "life-piggy",
+    "ok": false,
+    "why": "Assertion is false: \"Календарь\" is visible"
+   },
+   {
+    "flow": "life-rems",
+    "ok": false,
+    "why": "Assertion is false: \"Календарь\" is visible"
+   },
+   {
+    "flow": "life-tools",
+    "ok": false,
+    "why": "Assertion is false: \"Календарь\" is visible"
+   }
+  ],
+  "dark": []
+ }
+}
