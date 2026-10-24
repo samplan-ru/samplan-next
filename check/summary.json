@@ -13,7 +13,7 @@
    "id": "s-bell",
    "theme": "light",
    "name": "Уведомления",
-   "mismatch": 0.1358,
+   "mismatch": 0.1359,
    "dy_pt": -80.0,
    "img": "light-s-bell.jpg",
    "grade": "off"
@@ -22,7 +22,7 @@
    "id": "s-bet",
    "theme": "light",
    "name": "Пари с собой",
-   "mismatch": 0.1648,
+   "mismatch": 0.1446,
    "dy_pt": -4.0,
    "img": "light-s-bet.jpg",
    "grade": "off"
@@ -31,7 +31,7 @@
    "id": "s-boss",
    "theme": "light",
    "name": "Босс недели",
-   "mismatch": 0.0896,
+   "mismatch": 0.0856,
    "dy_pt": 24.0,
    "img": "light-s-boss.jpg",
    "grade": "close"
@@ -49,7 +49,7 @@
    "id": "s-goal",
    "theme": "light",
    "name": "Новая цель",
-   "mismatch": 0.1588,
+   "mismatch": 0.1582,
    "dy_pt": 24.0,
    "img": "light-s-goal.jpg",
    "grade": "off"
@@ -58,7 +58,7 @@
    "id": "s-goalday",
    "theme": "light",
    "name": "Цель дня · окно плашки",
-   "mismatch": 0.2345,
+   "mismatch": 0.2346,
    "dy_pt": -6.0,
    "img": "light-s-goalday.jpg",
    "grade": "off"
@@ -85,7 +85,7 @@
    "id": "s-log",
    "theme": "light",
    "name": "Записать дело",
-   "mismatch": 0.274,
+   "mismatch": 0.2741,
    "dy_pt": -6.0,
    "img": "light-s-log.jpg",
    "grade": "off"
@@ -94,16 +94,16 @@
    "id": "s-paths",
    "theme": "light",
    "name": "Пути великих",
-   "mismatch": 0.6927,
-   "dy_pt": -140.0,
+   "mismatch": 0.0485,
+   "dy_pt": 24.0,
    "img": "light-s-paths.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-rems",
    "theme": "light",
    "name": "Напоминания",
-   "mismatch": 0.1063,
+   "mismatch": 0.1064,
    "dy_pt": 20.0,
    "img": "light-s-rems.jpg",
    "grade": "close"
@@ -112,10 +112,10 @@
    "id": "s-stats",
    "theme": "light",
    "name": "Статистика",
-   "mismatch": 0.67,
-   "dy_pt": -140.0,
+   "mismatch": 0.064,
+   "dy_pt": 30.0,
    "img": "light-s-stats.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-streak",
@@ -130,7 +130,7 @@
    "id": "s-week",
    "theme": "light",
    "name": "Итоги недели",
-   "mismatch": 0.0631,
+   "mismatch": 0.072,
    "dy_pt": 16.0,
    "img": "light-s-week.jpg",
    "grade": "close"
@@ -139,18 +139,10 @@
    "id": "s-weekch",
    "theme": "light",
    "name": "Испытание недели",
-   "mismatch": 0.0994,
+   "mismatch": 0.0996,
    "dy_pt": 24.0,
    "img": "light-s-weekch.jpg",
    "grade": "close"
-  },
-  {
-   "id": "step-004-assertCondition-Сегодня",
-   "theme": "light",
-   "name": "step-004-assertCondition-Сегодня",
-   "mismatch": null,
-   "grade": "no-ref",
-   "img": "light-step-004-assertCondition-Сегодня.jpg"
   },
   {
    "id": "step-006-assertCondition-Новое_сообщение",
@@ -205,7 +197,7 @@
    "id": "s-date-form",
    "theme": "light",
    "name": "Важная дата · форма",
-   "mismatch": 0.0957,
+   "mismatch": 0.0954,
    "dy_pt": 24.0,
    "img": "light-s-date-form.jpg",
    "grade": "close"
@@ -214,7 +206,7 @@
    "id": "s-date",
    "theme": "light",
    "name": "Важная дата · карточка",
-   "mismatch": 0.1306,
+   "mismatch": 0.1314,
    "dy_pt": 20.0,
    "img": "light-s-date.jpg",
    "grade": "off"
@@ -250,7 +242,7 @@
    "id": "s-piggy-form",
    "theme": "light",
    "name": "Копилка · форма",
-   "mismatch": 0.0791,
+   "mismatch": 0.0801,
    "dy_pt": 32.0,
    "img": "light-s-piggy-form.jpg",
    "grade": "close"
@@ -259,7 +251,7 @@
    "id": "s-piggy",
    "theme": "light",
    "name": "Копилка · карточка",
-   "mismatch": 0.1159,
+   "mismatch": 0.1163,
    "dy_pt": 26.0,
    "img": "light-s-piggy.jpg",
    "grade": "close"
@@ -304,7 +296,7 @@
    "id": "s-vac",
    "theme": "light",
    "name": "Отпуск",
-   "mismatch": 0.1835,
+   "mismatch": 0.1834,
    "dy_pt": 8.0,
    "img": "light-s-vac.jpg",
    "grade": "off"
@@ -330,7 +322,7 @@
    "id": "s-profile",
    "theme": "light",
    "name": "Профиль · редактирование",
-   "mismatch": 0.0972,
+   "mismatch": 0.0976,
    "dy_pt": 34.0,
    "img": "light-s-profile.jpg",
    "grade": "close"
@@ -348,7 +340,7 @@
    "id": "s-share-day",
    "theme": "light",
    "name": "Поделиться · карточка «День»",
-   "mismatch": 0.1157,
+   "mismatch": 0.1155,
    "dy_pt": 24.0,
    "img": "light-s-share-day.jpg",
    "grade": "close"
@@ -357,10 +349,10 @@
    "id": "s-share",
    "theme": "light",
    "name": "Поделиться",
-   "mismatch": 0.7541,
-   "dy_pt": 140.0,
+   "mismatch": 0.1001,
+   "dy_pt": 24.0,
    "img": "light-s-share.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-shop",
@@ -442,10 +434,10 @@
    "id": "s-feedcfg",
    "theme": "light",
    "name": "Настройки ленты",
-   "mismatch": 0.7641,
-   "dy_pt": 72.0,
+   "mismatch": 0.101,
+   "dy_pt": 20.0,
    "img": "light-s-feedcfg.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-friends",
@@ -460,10 +452,10 @@
    "id": "s-jury",
    "theme": "light",
    "name": "Суд присяжных",
-   "mismatch": 0.7711,
-   "dy_pt": 16.0,
+   "mismatch": 0.0716,
+   "dy_pt": 8.0,
    "img": "light-s-jury.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-newch",
@@ -487,28 +479,28 @@
    "id": "s-post",
    "theme": "light",
    "name": "Новая запись",
-   "mismatch": 0.7168,
-   "dy_pt": 140.0,
+   "mismatch": 0.0826,
+   "dy_pt": -4.0,
    "img": "light-s-post.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-rate",
    "theme": "light",
    "name": "Рейтинг недели",
-   "mismatch": 0.6929,
-   "dy_pt": -136.0,
+   "mismatch": 0.0787,
+   "dy_pt": 8.0,
    "img": "light-s-rate.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-report",
    "theme": "light",
    "name": "Жалоба",
-   "mismatch": 0.6008,
-   "dy_pt": -114.0,
+   "mismatch": 0.0931,
+   "dy_pt": 4.0,
    "img": "light-s-report.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "step-013-assertCondition-Ближе",
@@ -540,8 +532,8 @@
    "id": "tab-feed",
    "theme": "light",
    "name": "Люди · Лента",
-   "mismatch": 0.1436,
-   "dy_pt": 50.0,
+   "mismatch": 0.1492,
+   "dy_pt": -110.0,
    "img": "light-tab-feed.jpg",
    "grade": "off"
   },
@@ -567,7 +559,7 @@
    "id": "tab-me",
    "theme": "light",
    "name": "Профиль",
-   "mismatch": 0.0723,
+   "mismatch": 0.0724,
    "dy_pt": 22.0,
    "img": "light-tab-me.jpg",
    "grade": "close"
@@ -585,7 +577,7 @@
    "id": "s-ach",
    "theme": "dark",
    "name": "Награды · окно плашки",
-   "mismatch": 0.081,
+   "mismatch": 0.0809,
    "dy_pt": -2.0,
    "img": "dark-s-ach.jpg",
    "grade": "close"
@@ -603,7 +595,7 @@
    "id": "s-bet",
    "theme": "dark",
    "name": "Пари с собой",
-   "mismatch": 0.0848,
+   "mismatch": 0.0871,
    "dy_pt": -4.0,
    "img": "dark-s-bet.jpg",
    "grade": "close"
@@ -612,7 +604,7 @@
    "id": "s-boss",
    "theme": "dark",
    "name": "Босс недели",
-   "mismatch": 0.0629,
+   "mismatch": 0.0632,
    "dy_pt": 24.0,
    "img": "dark-s-boss.jpg",
    "grade": "close"
@@ -621,7 +613,7 @@
    "id": "s-gift",
    "theme": "dark",
    "name": "Подарок дня",
-   "mismatch": 0.0944,
+   "mismatch": 0.0943,
    "dy_pt": -4.0,
    "img": "dark-s-gift.jpg",
    "grade": "close"
@@ -630,7 +622,7 @@
    "id": "s-goal",
    "theme": "dark",
    "name": "Новая цель",
-   "mismatch": 0.136,
+   "mismatch": 0.1355,
    "dy_pt": -38.0,
    "img": "dark-s-goal.jpg",
    "grade": "off"
@@ -639,7 +631,7 @@
    "id": "s-goalday",
    "theme": "dark",
    "name": "Цель дня · окно плашки",
-   "mismatch": 0.0973,
+   "mismatch": 0.0972,
    "dy_pt": -4.0,
    "img": "dark-s-goalday.jpg",
    "grade": "close"
@@ -657,7 +649,7 @@
    "id": "s-karma",
    "theme": "dark",
    "name": "Карма",
-   "mismatch": 0.0766,
+   "mismatch": 0.0765,
    "dy_pt": -6.0,
    "img": "dark-s-karma.jpg",
    "grade": "close"
@@ -666,7 +658,7 @@
    "id": "s-log",
    "theme": "dark",
    "name": "Записать дело",
-   "mismatch": 0.1741,
+   "mismatch": 0.1742,
    "dy_pt": -24.0,
    "img": "dark-s-log.jpg",
    "grade": "off"
@@ -675,7 +667,7 @@
    "id": "s-paths",
    "theme": "dark",
    "name": "Пути великих",
-   "mismatch": 0.045,
+   "mismatch": 0.0403,
    "dy_pt": 24.0,
    "img": "dark-s-paths.jpg",
    "grade": "close"
@@ -702,7 +694,7 @@
    "id": "s-streak",
    "theme": "dark",
    "name": "Серия · окно плашки",
-   "mismatch": 0.0686,
+   "mismatch": 0.0685,
    "dy_pt": -6.0,
    "img": "dark-s-streak.jpg",
    "grade": "close"
@@ -711,7 +703,7 @@
    "id": "s-week",
    "theme": "dark",
    "name": "Итоги недели",
-   "mismatch": 0.0437,
+   "mismatch": 0.0467,
    "dy_pt": 16.0,
    "img": "dark-s-week.jpg",
    "grade": "close"
@@ -720,7 +712,7 @@
    "id": "s-weekch",
    "theme": "dark",
    "name": "Испытание недели",
-   "mismatch": 0.0719,
+   "mismatch": 0.0677,
    "dy_pt": 26.0,
    "img": "dark-s-weekch.jpg",
    "grade": "close"
@@ -787,7 +779,7 @@
    "id": "s-date",
    "theme": "dark",
    "name": "Важная дата · карточка",
-   "mismatch": 0.1291,
+   "mismatch": 0.1281,
    "dy_pt": 22.0,
    "img": "dark-s-date.jpg",
    "grade": "off"
@@ -805,7 +797,7 @@
    "id": "s-loan",
    "theme": "dark",
    "name": "Кредит · карточка",
-   "mismatch": 0.143,
+   "mismatch": 0.1431,
    "dy_pt": -8.0,
    "img": "dark-s-loan.jpg",
    "grade": "off"
@@ -832,7 +824,7 @@
    "id": "s-piggy",
    "theme": "dark",
    "name": "Копилка · карточка",
-   "mismatch": 0.1001,
+   "mismatch": 0.1008,
    "dy_pt": 26.0,
    "img": "dark-s-piggy.jpg",
    "grade": "close"
@@ -903,7 +895,7 @@
    "id": "s-profile",
    "theme": "dark",
    "name": "Профиль · редактирование",
-   "mismatch": 0.0709,
+   "mismatch": 0.0708,
    "dy_pt": 34.0,
    "img": "dark-s-profile.jpg",
    "grade": "close"
@@ -921,7 +913,7 @@
    "id": "s-share-day",
    "theme": "dark",
    "name": "Поделиться · карточка «День»",
-   "mismatch": 0.0874,
+   "mismatch": 0.0875,
    "dy_pt": 24.0,
    "img": "dark-s-share-day.jpg",
    "grade": "close"
@@ -930,7 +922,7 @@
    "id": "s-share",
    "theme": "dark",
    "name": "Поделиться",
-   "mismatch": 0.1485,
+   "mismatch": 0.1486,
    "dy_pt": 24.0,
    "img": "dark-s-share.jpg",
    "grade": "off"
@@ -1006,7 +998,7 @@
    "id": "s-code",
    "theme": "dark",
    "name": "Вызов по коду (карточка на «Вызовах»)",
-   "mismatch": 0.1736,
+   "mismatch": 0.1735,
    "dy_pt": -104.0,
    "img": "dark-s-code.jpg",
    "grade": "off"
@@ -1015,7 +1007,7 @@
    "id": "s-feedcfg",
    "theme": "dark",
    "name": "Настройки ленты",
-   "mismatch": 0.0986,
+   "mismatch": 0.0968,
    "dy_pt": 20.0,
    "img": "dark-s-feedcfg.jpg",
    "grade": "close"
@@ -1033,19 +1025,10 @@
    "id": "s-jury",
    "theme": "dark",
    "name": "Суд присяжных",
-   "mismatch": 0.0631,
+   "mismatch": 0.063,
    "dy_pt": 8.0,
    "img": "dark-s-jury.jpg",
    "grade": "close"
-  },
-  {
-   "id": "s-map-full",
-   "theme": "dark",
-   "name": "Карта на весь экран",
-   "mismatch": 0.1905,
-   "dy_pt": -12.0,
-   "img": "dark-s-map-full.jpg",
-   "grade": "off"
   },
   {
    "id": "s-newch",
@@ -1069,7 +1052,7 @@
    "id": "s-post",
    "theme": "dark",
    "name": "Новая запись",
-   "mismatch": 0.0861,
+   "mismatch": 0.0889,
    "dy_pt": -4.0,
    "img": "dark-s-post.jpg",
    "grade": "close"
@@ -1078,7 +1061,7 @@
    "id": "s-rate",
    "theme": "dark",
    "name": "Рейтинг недели",
-   "mismatch": 0.0601,
+   "mismatch": 0.06,
    "dy_pt": 8.0,
    "img": "dark-s-rate.jpg",
    "grade": "close"
@@ -1093,6 +1076,14 @@
    "grade": "close"
   },
   {
+   "id": "step-013-assertCondition-Ближе",
+   "theme": "dark",
+   "name": "step-013-assertCondition-Ближе",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-013-assertCondition-Ближе.jpg"
+  },
+  {
    "id": "tab-ch",
    "theme": "dark",
    "name": "Вызовы · Мои",
@@ -1105,7 +1096,7 @@
    "id": "tab-day",
    "theme": "dark",
    "name": "Сегодня (главная)",
-   "mismatch": 0.1211,
+   "mismatch": 0.1212,
    "dy_pt": 24.0,
    "img": "dark-tab-day.jpg",
    "grade": "off"
@@ -1114,8 +1105,8 @@
    "id": "tab-feed",
    "theme": "dark",
    "name": "Люди · Лента",
-   "mismatch": 0.1594,
-   "dy_pt": -108.0,
+   "mismatch": 0.1454,
+   "dy_pt": 52.0,
    "img": "dark-tab-feed.jpg",
    "grade": "off"
   },
@@ -1160,8 +1151,8 @@
   "light": [
    {
     "flow": "home-avatar",
-    "ok": false,
-    "why": "Assertion is false: \"Сегодня\" is visible"
+    "ok": true,
+    "why": ""
    },
    {
     "flow": "home-bell-go",
@@ -1522,8 +1513,8 @@
    },
    {
     "flow": "ch-map",
-    "ok": true,
-    "why": ""
+    "ok": false,
+    "why": "Assertion is false: \"Ближе\" is visible"
    },
    {
     "flow": "ch-new",
