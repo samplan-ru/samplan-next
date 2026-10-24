@@ -1,0 +1,97 @@
+08:32:24.731 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Define variables RUNNING
+08:32:24.731 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Define variables COMPLETED
+08:32:24.732 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Apply configuration RUNNING
+08:32:24.732 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Apply configuration COMPLETED
+08:32:24.732 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Launch app "ru.samplan.app" RUNNING
+08:32:25.310 [DEBUG] maestro.Maestro.setPermissionInternal: Failed to set permission android.permission.READ_EXTERNAL_STORAGE for app ru.samplan.app: shell command failed (exit -1): 
+Exception occurred while executing 'grant':
+java.lang.SecurityException: Package ru.samplan.app has not requested permission android.permission.READ_EXTERNAL_STORAGE
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermissionInternal(PermissionManagerServiceImpl.java:1423)
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermission(PermissionManagerServiceImpl.java:1337)
+	at com.android.server.pm.permission.PermissionManagerService.grantRuntimePermission(PermissionManagerService.java:551)
+	at android.permission.PermissionManager.grantRuntimePermission(PermissionManager.java:609)
+	at com.android.server.pm.PackageManagerShellCommand.runGrantRevokePermission(PackageManagerShellCommand.java:2672)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:291)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onShellCommand(PackageManagerService.java:6350)
+	at android.os.Binder.shellCommand(Binder.java:1068)
+	at android.os.Binder.onTransact(Binder.java:888)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4352)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6334)
+	at android.os.Binder.execTransactInternal(Binder.java:1344)
+	at android.os.Binder.execTransact(Binder.java:1275)
+
+08:32:25.367 [DEBUG] maestro.Maestro.setPermissionInternal: Failed to set permission android.permission.WRITE_EXTERNAL_STORAGE for app ru.samplan.app: shell command failed (exit -1): 
+Exception occurred while executing 'grant':
+java.lang.SecurityException: Package ru.samplan.app has not requested permission android.permission.WRITE_EXTERNAL_STORAGE
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermissionInternal(PermissionManagerServiceImpl.java:1423)
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermission(PermissionManagerServiceImpl.java:1337)
+	at com.android.server.pm.permission.PermissionManagerService.grantRuntimePermission(PermissionManagerService.java:551)
+	at android.permission.PermissionManager.grantRuntimePermission(PermissionManager.java:609)
+	at com.android.server.pm.PackageManagerShellCommand.runGrantRevokePermission(PackageManagerShellCommand.java:2672)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:291)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onShellCommand(PackageManagerService.java:6350)
+	at android.os.Binder.shellCommand(Binder.java:1068)
+	at android.os.Binder.onTransact(Binder.java:888)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4352)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6334)
+	at android.os.Binder.execTransactInternal(Binder.java:1344)
+	at android.os.Binder.execTransact(Binder.java:1275)
+
+08:32:25.408 [ INFO] maestro.Maestro.launchApp$lambda$5: Launching app ru.samplan.app
+08:32:25.408 [ INFO] maestro.Maestro.launchApp$lambda$5: Stopping ru.samplan.app app during launch
+08:32:25.908 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Launch app "ru.samplan.app" COMPLETED
+08:32:25.908 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Сегодня" is visible RUNNING
+08:32:34.713 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Сегодня" is visible COMPLETED
+08:32:34.714 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Scrolling DOWN until "Смотреть" is visible with speed 40, visibility percentage 100%, timeout 90000 ms, with centering disabled RUNNING
+08:32:35.901 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:32:35.942 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:32:40.480 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:32:40.489 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:32:44.296 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:32:44.338 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:32:48.297 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:32:48.302 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:32:52.794 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:32:52.837 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:32:56.980 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:32:57.021 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:01.568 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:01.606 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:05.124 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:05.130 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:10.531 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:10.573 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:14.621 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:14.708 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:19.015 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:19.055 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:23.169 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:23.210 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:27.398 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:27.481 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:31.610 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:31.652 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:35.675 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:35.719 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:39.881 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:39.922 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:43.979 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:44.021 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:48.018 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:48.059 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:52.007 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:52.047 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:33:56.086 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:33:56.127 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:34:01.102 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:34:01.142 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:34:05.239 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Смотреть
+08:34:05.280 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:34:08.561 [ERROR] maestro.orchestra.Orchestra.executeCommands: [Command execution] CommandFailed: No visible element found: "Смотреть"
+08:34:09.038 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+08:34:09.040 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:34:09.425 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Scrolling DOWN until "Смотреть" is visible with speed 40, visibility percentage 100%, timeout 90000 ms, with centering disabled FAILED

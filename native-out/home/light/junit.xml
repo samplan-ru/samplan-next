@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="15" failures="5" time="961.825" timestamp="2026-10-24T08:24:22">
+    <testcase id="home-avatar" name="home-avatar" classname="home-avatar" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-avatar.yaml" time="52.902" timestamp="2026-10-24T08:24:22" status="SUCCESS"/>
+    <testcase id="home-bell-go" name="home-bell-go" classname="home-bell-go" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-bell-go.yaml" time="44.708" timestamp="2026-10-24T08:25:15" status="SUCCESS"/>
+    <testcase id="home-bell" name="home-bell" classname="home-bell" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-bell.yaml" time="41.41" timestamp="2026-10-24T08:26:00" status="SUCCESS"/>
+    <testcase id="home-chats-button" name="home-chats-button" classname="home-chats-button" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-chats.yaml" time="29.804" timestamp="2026-10-24T08:26:41" status="SUCCESS"/>
+    <testcase id="home-gift" name="home-gift" classname="home-gift" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-gift.yaml" time="25.08" timestamp="2026-10-24T08:27:11" status="SUCCESS"/>
+    <testcase id="home-goal-bet" name="home-goal-bet" classname="home-goal-bet" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-goal-bet.yaml" time="86.077" timestamp="2026-10-24T08:27:36" status="ERROR">
+      <failure>No visible element found: "Добавить"</failure>
+    </testcase>
+    <testcase id="home-head" name="home-head" classname="home-head" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-head.yaml" time="84.274" timestamp="2026-10-24T08:29:02" status="SUCCESS"/>
+    <testcase id="home-log" name="home-log" classname="home-log" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-log.yaml" time="21.559" timestamp="2026-10-24T08:30:26" status="SUCCESS"/>
+    <testcase id="home-map" name="home-map" classname="home-map" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-map.yaml" time="61.112" timestamp="2026-10-24T08:30:48" status="ERROR">
+      <failure>No visible element found: "Открыть карту"</failure>
+    </testcase>
+    <testcase id="home-paths" name="home-paths" classname="home-paths" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-paths.yaml" time="68.672" timestamp="2026-10-24T08:31:49" status="SUCCESS"/>
+    <testcase id="home-read" name="home-read" classname="home-read" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-read.yaml" time="59.916" timestamp="2026-10-24T08:32:58" status="ERROR">
+      <failure>Element not found: Text matching regex: Почитать, Below: "Показывать на главной"</failure>
+    </testcase>
+    <testcase id="home-recap" name="home-recap" classname="home-recap" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-recap.yaml" time="110.527" timestamp="2026-10-24T08:33:58" status="ERROR">
+      <failure>No visible element found: "Смотреть"</failure>
+    </testcase>
+    <testcase id="home-rems" name="home-rems" classname="home-rems" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-rems.yaml" time="62.532" timestamp="2026-10-24T08:35:48" status="ERROR">
+      <failure>Assertion is false: "Сегодня" is visible</failure>
+    </testcase>
+    <testcase id="home-rit-pop" name="home-rit-pop" classname="home-rit-pop" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-rit-pop.yaml" time="110.334" timestamp="2026-10-24T08:36:51" status="SUCCESS"/>
+    <testcase id="home-week" name="home-week" classname="home-week" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-week.yaml" time="102.766" timestamp="2026-10-24T08:38:41" status="SUCCESS"/>
+  </testsuite>
+</testsuites>

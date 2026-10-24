@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="15" failures="3" time="751.686" timestamp="2026-10-24T08:24:13">
+    <testcase id="home-avatar" name="home-avatar" classname="home-avatar" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-avatar.yaml" time="54.107" timestamp="2026-10-24T08:24:13" status="SUCCESS"/>
+    <testcase id="home-bell-go" name="home-bell-go" classname="home-bell-go" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-bell-go.yaml" time="39.901" timestamp="2026-10-24T08:25:07" status="SUCCESS"/>
+    <testcase id="home-bell" name="home-bell" classname="home-bell" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-bell.yaml" time="40.75" timestamp="2026-10-24T08:25:47" status="SUCCESS"/>
+    <testcase id="home-chats-button" name="home-chats-button" classname="home-chats-button" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-chats.yaml" time="25.883" timestamp="2026-10-24T08:26:28" status="SUCCESS"/>
+    <testcase id="home-gift" name="home-gift" classname="home-gift" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-gift.yaml" time="22.631" timestamp="2026-10-24T08:26:54" status="SUCCESS"/>
+    <testcase id="home-goal-bet" name="home-goal-bet" classname="home-goal-bet" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-goal-bet.yaml" time="88.467" timestamp="2026-10-24T08:27:16" status="SUCCESS"/>
+    <testcase id="home-head" name="home-head" classname="home-head" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-head.yaml" time="56.817" timestamp="2026-10-24T08:28:45" status="SUCCESS"/>
+    <testcase id="home-log" name="home-log" classname="home-log" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-log.yaml" time="18.799" timestamp="2026-10-24T08:29:42" status="SUCCESS"/>
+    <testcase id="home-map" name="home-map" classname="home-map" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-map.yaml" time="51.991" timestamp="2026-10-24T08:30:00" status="ERROR">
+      <failure>No visible element found: "Открыть карту"</failure>
+    </testcase>
+    <testcase id="home-paths" name="home-paths" classname="home-paths" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-paths.yaml" time="42.049" timestamp="2026-10-24T08:30:52" status="SUCCESS"/>
+    <testcase id="home-read" name="home-read" classname="home-read" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-read.yaml" time="49.782" timestamp="2026-10-24T08:31:34" status="ERROR">
+      <failure>Element not found: Text matching regex: Почитать, Below: "Показывать на главной"</failure>
+    </testcase>
+    <testcase id="home-recap" name="home-recap" classname="home-recap" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-recap.yaml" time="105.083" timestamp="2026-10-24T08:32:24" status="ERROR">
+      <failure>No visible element found: "Смотреть"</failure>
+    </testcase>
+    <testcase id="home-rems" name="home-rems" classname="home-rems" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-rems.yaml" time="18.089" timestamp="2026-10-24T08:34:09" status="SUCCESS"/>
+    <testcase id="home-rit-pop" name="home-rit-pop" classname="home-rit-pop" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-rit-pop.yaml" time="69.622" timestamp="2026-10-24T08:34:27" status="SUCCESS"/>
+    <testcase id="home-week" name="home-week" classname="home-week" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-week.yaml" time="67.566" timestamp="2026-10-24T08:35:37" status="SUCCESS"/>
+  </testsuite>
+</testsuites>

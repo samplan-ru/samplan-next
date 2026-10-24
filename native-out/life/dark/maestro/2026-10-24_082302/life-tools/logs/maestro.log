@@ -1,0 +1,147 @@
+08:28:20.729 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Define variables RUNNING
+08:28:20.729 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Define variables COMPLETED
+08:28:20.730 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Apply configuration RUNNING
+08:28:20.730 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Apply configuration COMPLETED
+08:28:20.730 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Launch app "ru.samplan.app" RUNNING
+08:28:21.348 [DEBUG] maestro.Maestro.setPermissionInternal: Failed to set permission android.permission.READ_EXTERNAL_STORAGE for app ru.samplan.app: shell command failed (exit -1): 
+Exception occurred while executing 'grant':
+java.lang.SecurityException: Package ru.samplan.app has not requested permission android.permission.READ_EXTERNAL_STORAGE
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermissionInternal(PermissionManagerServiceImpl.java:1423)
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermission(PermissionManagerServiceImpl.java:1337)
+	at com.android.server.pm.permission.PermissionManagerService.grantRuntimePermission(PermissionManagerService.java:551)
+	at android.permission.PermissionManager.grantRuntimePermission(PermissionManager.java:609)
+	at com.android.server.pm.PackageManagerShellCommand.runGrantRevokePermission(PackageManagerShellCommand.java:2672)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:291)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onShellCommand(PackageManagerService.java:6350)
+	at android.os.Binder.shellCommand(Binder.java:1068)
+	at android.os.Binder.onTransact(Binder.java:888)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4352)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6334)
+	at android.os.Binder.execTransactInternal(Binder.java:1344)
+	at android.os.Binder.execTransact(Binder.java:1275)
+
+08:28:21.444 [DEBUG] maestro.Maestro.setPermissionInternal: Failed to set permission android.permission.WRITE_EXTERNAL_STORAGE for app ru.samplan.app: shell command failed (exit -1): 
+Exception occurred while executing 'grant':
+java.lang.SecurityException: Package ru.samplan.app has not requested permission android.permission.WRITE_EXTERNAL_STORAGE
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermissionInternal(PermissionManagerServiceImpl.java:1423)
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermission(PermissionManagerServiceImpl.java:1337)
+	at com.android.server.pm.permission.PermissionManagerService.grantRuntimePermission(PermissionManagerService.java:551)
+	at android.permission.PermissionManager.grantRuntimePermission(PermissionManager.java:609)
+	at com.android.server.pm.PackageManagerShellCommand.runGrantRevokePermission(PackageManagerShellCommand.java:2672)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:291)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onShellCommand(PackageManagerService.java:6350)
+	at android.os.Binder.shellCommand(Binder.java:1068)
+	at android.os.Binder.onTransact(Binder.java:888)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4352)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6334)
+	at android.os.Binder.execTransactInternal(Binder.java:1344)
+	at android.os.Binder.execTransact(Binder.java:1275)
+
+08:28:21.489 [ INFO] maestro.Maestro.launchApp$lambda$5: Launching app ru.samplan.app
+08:28:21.489 [ INFO] maestro.Maestro.launchApp$lambda$5: Stopping ru.samplan.app app during launch
+08:28:21.915 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Launch app "ru.samplan.app" COMPLETED
+08:28:21.915 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Сегодня" is visible RUNNING
+08:28:31.500 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Сегодня" is visible COMPLETED
+08:28:31.500 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on "Дела" RUNNING
+08:28:31.975 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=Дела, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[771,2475][861,2526], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=771, y=2475, width=90, height=51))
+08:28:33.602 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+08:28:33.604 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (816, 2500) using hierarchy based logic for wait
+08:28:36.629 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+08:28:36.629 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on "Дела" COMPLETED
+08:28:36.629 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Календарь" is visible RUNNING
+08:28:36.968 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Календарь" is visible COMPLETED
+08:28:36.968 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on "Календарь" RUNNING
+08:28:37.221 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=Календарь, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[865,193][1061,237], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=865, y=193, width=196, height=44))
+08:28:38.604 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+08:28:38.605 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (963, 215) using hierarchy based logic for wait
+08:28:43.733 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+08:28:43.734 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on "Календарь" COMPLETED
+08:28:43.734 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Предыдущий месяц" is visible RUNNING
+08:28:43.928 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Предыдущий месяц" is visible COMPLETED
+08:28:43.929 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Wait for animation to end RUNNING
+08:28:43.929 [ INFO] maestro.Maestro.waitForAnimationToEnd$lambda$53: Waiting for animation to end with timeout 15000
+08:28:43.929 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:28:43.929 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:28:44.495 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:28:44.495 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:28:45.187 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Wait for animation to end COMPLETED
+08:28:45.187 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Take screenshot s-cal RUNNING
+08:28:45.188 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+08:28:45.188 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:28:45.565 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Take screenshot s-cal COMPLETED
+08:28:45.565 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Press back RUNNING
+08:28:45.565 [ INFO] maestro.Maestro.backPress: Pressing back
+08:28:46.761 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Press back COMPLETED
+08:28:46.761 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Предыдущий месяц" is not visible RUNNING
+08:28:47.733 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Предыдущий месяц" is not visible COMPLETED
+08:28:47.733 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on "Доход" RUNNING
+08:28:48.034 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=Доход, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[755,1229][1103,1270], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=755, y=1229, width=348, height=41))
+08:28:49.453 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+08:28:49.454 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (929, 1249) using hierarchy based logic for wait
+08:28:52.102 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+08:28:52.102 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on "Доход" COMPLETED
+08:28:52.102 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Добавить доход" is visible RUNNING
+08:28:52.265 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Добавить доход" is visible COMPLETED
+08:28:52.265 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Wait for animation to end RUNNING
+08:28:52.267 [ INFO] maestro.Maestro.waitForAnimationToEnd$lambda$53: Waiting for animation to end with timeout 15000
+08:28:52.267 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:28:52.267 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:28:52.787 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:28:52.787 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:28:53.369 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Wait for animation to end COMPLETED
+08:28:53.369 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Take screenshot s-income RUNNING
+08:28:53.370 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+08:28:53.371 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:28:53.658 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Take screenshot s-income COMPLETED
+08:28:53.658 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Press back RUNNING
+08:28:53.659 [ INFO] maestro.Maestro.backPress: Pressing back
+08:28:54.861 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Press back COMPLETED
+08:28:54.861 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Добавить доход" is not visible RUNNING
+08:28:55.684 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Добавить доход" is not visible COMPLETED
+08:28:55.684 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on "Отпуск" RUNNING
+08:28:55.945 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=Отпуск, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[199,1003][546,1043], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=199, y=1003, width=347, height=40))
+08:28:57.358 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+08:28:57.360 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (372, 1023) using hierarchy based logic for wait
+08:29:00.622 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+08:29:00.623 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on "Отпуск" COMPLETED
+08:29:00.623 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Хочу взять" is visible RUNNING
+08:29:00.750 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Хочу взять" is visible COMPLETED
+08:29:00.750 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Wait for animation to end RUNNING
+08:29:00.751 [ INFO] maestro.Maestro.waitForAnimationToEnd$lambda$53: Waiting for animation to end with timeout 15000
+08:29:00.751 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:29:00.751 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:29:01.185 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:29:01.185 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:29:01.918 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Wait for animation to end COMPLETED
+08:29:01.918 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Take screenshot s-vac RUNNING
+08:29:01.919 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+08:29:01.919 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:29:02.247 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Take screenshot s-vac COMPLETED
+08:29:02.247 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Press back RUNNING
+08:29:02.247 [ INFO] maestro.Maestro.backPress: Pressing back
+08:29:03.515 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Press back COMPLETED
+08:29:03.516 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Хочу взять" is not visible RUNNING
+08:29:04.357 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Хочу взять" is not visible COMPLETED
+08:29:04.357 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on "Смены" RUNNING
+08:29:04.619 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=Смены, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[199,776][546,817], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=199, y=776, width=347, height=41))
+08:29:06.011 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+08:29:06.012 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (372, 796) using hierarchy based logic for wait
+08:29:09.599 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+08:29:09.599 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on "Смены" COMPLETED
+08:29:09.599 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "График" is visible RUNNING
+08:29:09.807 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "График" is visible COMPLETED
+08:29:09.807 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Wait for animation to end RUNNING
+08:29:09.808 [ INFO] maestro.Maestro.waitForAnimationToEnd$lambda$53: Waiting for animation to end with timeout 15000
+08:29:09.808 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:29:09.808 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:29:10.290 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:29:10.291 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:29:10.849 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Wait for animation to end COMPLETED
+08:29:10.849 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Take screenshot s-shifts RUNNING
+08:29:10.849 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+08:29:10.850 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:29:11.197 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Take screenshot s-shifts COMPLETED

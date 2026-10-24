@@ -1,0 +1,98 @@
+08:27:10.288 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Define variables RUNNING
+08:27:10.289 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Define variables COMPLETED
+08:27:10.291 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Apply configuration RUNNING
+08:27:10.291 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Apply configuration COMPLETED
+08:27:10.291 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Launch app "ru.samplan.app" RUNNING
+08:27:10.904 [DEBUG] maestro.Maestro.setPermissionInternal: Failed to set permission android.permission.READ_EXTERNAL_STORAGE for app ru.samplan.app: shell command failed (exit -1): 
+Exception occurred while executing 'grant':
+java.lang.SecurityException: Package ru.samplan.app has not requested permission android.permission.READ_EXTERNAL_STORAGE
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermissionInternal(PermissionManagerServiceImpl.java:1423)
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermission(PermissionManagerServiceImpl.java:1337)
+	at com.android.server.pm.permission.PermissionManagerService.grantRuntimePermission(PermissionManagerService.java:551)
+	at android.permission.PermissionManager.grantRuntimePermission(PermissionManager.java:609)
+	at com.android.server.pm.PackageManagerShellCommand.runGrantRevokePermission(PackageManagerShellCommand.java:2672)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:291)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onShellCommand(PackageManagerService.java:6350)
+	at android.os.Binder.shellCommand(Binder.java:1068)
+	at android.os.Binder.onTransact(Binder.java:888)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4352)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6334)
+	at android.os.Binder.execTransactInternal(Binder.java:1344)
+	at android.os.Binder.execTransact(Binder.java:1275)
+
+08:27:10.965 [DEBUG] maestro.Maestro.setPermissionInternal: Failed to set permission android.permission.WRITE_EXTERNAL_STORAGE for app ru.samplan.app: shell command failed (exit -1): 
+Exception occurred while executing 'grant':
+java.lang.SecurityException: Package ru.samplan.app has not requested permission android.permission.WRITE_EXTERNAL_STORAGE
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermissionInternal(PermissionManagerServiceImpl.java:1423)
+	at com.android.server.pm.permission.PermissionManagerServiceImpl.grantRuntimePermission(PermissionManagerServiceImpl.java:1337)
+	at com.android.server.pm.permission.PermissionManagerService.grantRuntimePermission(PermissionManagerService.java:551)
+	at android.permission.PermissionManager.grantRuntimePermission(PermissionManager.java:609)
+	at com.android.server.pm.PackageManagerShellCommand.runGrantRevokePermission(PackageManagerShellCommand.java:2672)
+	at com.android.server.pm.PackageManagerShellCommand.onCommand(PackageManagerShellCommand.java:291)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onShellCommand(PackageManagerService.java:6350)
+	at android.os.Binder.shellCommand(Binder.java:1068)
+	at android.os.Binder.onTransact(Binder.java:888)
+	at android.content.pm.IPackageManager$Stub.onTransact(IPackageManager.java:4352)
+	at com.android.server.pm.PackageManagerService$IPackageManagerImpl.onTransact(PackageManagerService.java:6334)
+	at android.os.Binder.execTransactInternal(Binder.java:1344)
+	at android.os.Binder.execTransact(Binder.java:1275)
+
+08:27:11.008 [ INFO] maestro.Maestro.launchApp$lambda$5: Launching app ru.samplan.app
+08:27:11.009 [ INFO] maestro.Maestro.launchApp$lambda$5: Stopping ru.samplan.app app during launch
+08:27:11.565 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Launch app "ru.samplan.app" COMPLETED
+08:27:11.565 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Сегодня" is visible RUNNING
+08:27:20.107 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Сегодня" is visible COMPLETED
+08:27:20.107 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on "Профиль" RUNNING
+08:27:20.515 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=Профиль, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[960,2475][1123,2526], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=960, y=2475, width=163, height=51))
+08:27:22.106 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+08:27:22.108 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (1041, 2500) using hierarchy based logic for wait
+08:27:26.283 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+08:27:26.284 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on "Профиль" COMPLETED
+08:27:26.284 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Гардероб" is visible RUNNING
+08:27:26.791 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Гардероб" is visible COMPLETED
+08:27:26.791 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on "Настройки" RUNNING
+08:27:27.260 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=, accessibilityText=Настройки, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=true, bounds=[997,1115][1097,1214], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.view.ViewGroup, important-for-accessibility=true, error=}, children=[TreeNode(attributes={text=, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[1022,1140][1072,1190], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=com.horcrux.svg.SvgView, important-for-accessibility=false, error=}, children=[TreeNode(attributes={text=, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[1024,1142][1072,1190], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=com.horcrux.svg.g, important-for-accessibility=false, error=}, children=[TreeNode(attributes={text=, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[1024,1142][1072,1190], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=ms4, important-for-accessibility=false, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), TreeNode(attributes={text=, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[1042,1160][1056,1174], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=com.horcrux.svg.a, important-for-accessibility=false, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false)], clickable=false, enabled=true, focused=false, checked=false, selected=false)], clickable=false, enabled=true, focused=false, checked=false, selected=false)], clickable=true, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=997, y=1115, width=100, height=99))
+08:27:28.897 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+08:27:28.898 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (1047, 1164) using hierarchy based logic for wait
+08:27:33.697 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+08:27:33.698 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on "Настройки" COMPLETED
+08:27:33.698 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Всё применяется сразу.*" is visible RUNNING
+08:27:33.942 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Всё применяется сразу.*" is visible COMPLETED
+08:27:33.943 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Scrolling DOWN until "Данные и конфиденциальность" is visible with speed 40, visibility percentage 100%, timeout 30000 ms, with centering disabled RUNNING
+08:27:35.018 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Данные и конфиденциальность
+08:27:35.062 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:27:38.807 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Данные и конфиденциальность
+08:27:38.850 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:27:42.916 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Данные и конфиденциальность
+08:27:42.959 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:27:46.814 [ WARN] maestro.orchestra.Orchestra.scrollUntilVisible: Error: maestro.MaestroException$ElementNotFound: Element not found: Text matching regex: Данные и конфиденциальность
+08:27:46.858 [ INFO] maestro.Maestro.swipeFromCenter: Swiping UP from center
+08:27:50.212 [ INFO] maestro.orchestra.Orchestra.scrollUntilVisible: Scrolling try count: 0, DeviceWidth: 1179, DeviceWidth: 2556
+08:27:50.212 [ INFO] maestro.orchestra.Orchestra.scrollUntilVisible: Element bounds: Bounds(x=225, y=2081, width=807, height=68)
+08:27:50.212 [ INFO] maestro.orchestra.Orchestra.scrollUntilVisible: Visibility Percent: 1.0
+08:27:50.213 [ INFO] maestro.orchestra.Orchestra.scrollUntilVisible: Command centerElement: ScrollUntilVisibleCommand(selector=ElementSelector(textRegex=Данные и конфиденциальность, idRegex=null, size=null, below=null, above=null, leftOf=null, rightOf=null, containsChild=null, containsDescendants=null, traits=null, index=null, enabled=null, optional=false, selected=null, checked=null, focused=null, childOf=null, css=null), direction=DOWN, scrollDuration=601, visibilityPercentage=100, timeout=30000, waitToSettleTimeoutMs=null, centerElement=false, originalSpeedValue=40, label=null, optional=false).centerElement
+08:27:50.213 [ INFO] maestro.orchestra.Orchestra.scrollUntilVisible: visibilityPercentageNormalized: 1.0
+08:27:50.213 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Scrolling DOWN until "Данные и конфиденциальность" is visible with speed 40, visibility percentage 100%, timeout 30000 ms, with centering disabled COMPLETED
+08:27:50.213 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Tap on "Данные и конфиденциальность" RUNNING
+08:27:50.448 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tapping on element:  UiElement(treeNode=TreeNode(attributes={text=Данные и конфиденциальность, accessibilityText=, hintText=, ignoreBoundsFiltering=false, resource-id=, clickable=false, bounds=[225,2081][1032,2149], enabled=true, focused=false, checked=false, scrollable=false, selected=false, class=android.widget.TextView, important-for-accessibility=true, error=}, children=[], clickable=false, enabled=true, focused=false, checked=false, selected=false), bounds=Bounds(x=225, y=2081, width=807, height=68))
+08:27:51.834 [ INFO] maestro.Maestro.tap-HgV9Ck0: Tap aimed via settled hierarchy
+08:27:51.835 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Tapping at (628, 2115) using hierarchy based logic for wait
+08:27:55.638 [ INFO] maestro.Maestro.hierarchyBasedTap-ogj28Uc: Something has changed in the UI judging by view hierarchy. Proceed.
+08:27:55.639 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Tap on "Данные и конфиденциальность" COMPLETED
+08:27:55.639 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Assert that "Где хранится" is visible RUNNING
+08:27:55.786 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Assert that "Где хранится" is visible COMPLETED
+08:27:55.786 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Wait for animation to end RUNNING
+08:27:55.787 [ INFO] maestro.Maestro.waitForAnimationToEnd$lambda$53: Waiting for animation to end with timeout 15000
+08:27:55.787 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:27:55.787 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:27:56.220 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to byte array
+08:27:56.221 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:27:56.879 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Wait for animation to end COMPLETED
+08:27:56.879 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandStart: Take screenshot s-privacy RUNNING
+08:27:56.880 [ INFO] maestro.Maestro.takeScreenshot: Taking screenshot
+08:27:56.881 [TRACE] maestro.utils.ScreenshotUtils.takeScreenshot: Taking screenshot to output sink
+08:27:57.302 [ INFO] maestro.cli.runner.CliConsoleListener.onCommandFinished: Take screenshot s-privacy COMPLETED

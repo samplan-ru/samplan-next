@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="7" failures="0" time="380.129" timestamp="2026-10-24T08:23:33">
+    <testcase id="life-dates" name="life-dates" classname="life-dates" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-dates.yaml" time="121.418" timestamp="2026-10-24T08:23:33" status="SUCCESS"/>
+    <testcase id="life-loans" name="life-loans" classname="life-loans" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-loans.yaml" time="45.151" timestamp="2026-10-24T08:25:35" status="SUCCESS"/>
+    <testcase id="life-piggy-form" name="life-piggy-form" classname="life-piggy-form" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-piggy-form.yaml" time="33.27" timestamp="2026-10-24T08:26:20" status="SUCCESS"/>
+    <testcase id="life-piggy" name="life-piggy" classname="life-piggy" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-piggy.yaml" time="32.284" timestamp="2026-10-24T08:26:53" status="SUCCESS"/>
+    <testcase id="life-rems" name="life-rems" classname="life-rems" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-rems.yaml" time="46.378" timestamp="2026-10-24T08:27:25" status="SUCCESS"/>
+    <testcase id="life-tools" name="life-tools" classname="life-tools" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-tools.yaml" time="51.796" timestamp="2026-10-24T08:28:12" status="SUCCESS"/>
+    <testcase id="home-plan" name="home-plan" classname="home-plan" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/99-home-plan.yaml" time="49.735" timestamp="2026-10-24T08:29:04" status="SUCCESS"/>
+  </testsuite>
+</testsuites>

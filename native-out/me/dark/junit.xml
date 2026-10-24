@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="9" failures="2" time="397.253" timestamp="2026-10-24T08:23:56">
+    <testcase id="me-about" name="me-about" classname="me-about" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-about.yaml" time="94.949" timestamp="2026-10-24T08:23:56" status="ERROR">
+      <failure>No visible element found: "Самплан · версия.*"</failure>
+    </testcase>
+    <testcase id="me-edit" name="me-edit" classname="me-edit" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-edit.yaml" time="45.005" timestamp="2026-10-24T08:25:31" status="SUCCESS"/>
+    <testcase id="me-onboard" name="me-onboard" classname="me-onboard" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-onboard.yaml" time="53.551" timestamp="2026-10-24T08:26:16" status="ERROR">
+      <failure>Assertion is false: "Ты в «Самплане»" is visible</failure>
+    </testcase>
+    <testcase id="me-privacy" name="me-privacy" classname="me-privacy" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-privacy.yaml" time="47.167" timestamp="2026-10-24T08:27:10" status="SUCCESS"/>
+    <testcase id="me-settings-home" name="me-settings-home" classname="me-settings-home" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-settings-home.yaml" time="30.749" timestamp="2026-10-24T08:27:57" status="SUCCESS"/>
+    <testcase id="me-settings" name="me-settings" classname="me-settings" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-settings.yaml" time="35.076" timestamp="2026-10-24T08:28:28" status="SUCCESS"/>
+    <testcase id="me-share" name="me-share" classname="me-share" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-share.yaml" time="32.484" timestamp="2026-10-24T08:29:03" status="SUCCESS"/>
+    <testcase id="me-voice" name="me-voice" classname="me-voice" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-voice.yaml" time="31.916" timestamp="2026-10-24T08:29:35" status="SUCCESS"/>
+    <testcase id="me-wardrobe" name="me-wardrobe" classname="me-wardrobe" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-wardrobe.yaml" time="26.244" timestamp="2026-10-24T08:30:07" status="SUCCESS"/>
+  </testsuite>
+</testsuites>
