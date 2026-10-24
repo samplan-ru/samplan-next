@@ -1,7 +1,1555 @@
 {
- "screens": [],
+ "screens": [
+  {
+   "id": "s-ach",
+   "theme": "light",
+   "name": "Награды · окно плашки",
+   "mismatch": 0.3425,
+   "dy_pt": -2.0,
+   "img": "light-s-ach.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-bell",
+   "theme": "light",
+   "name": "Уведомления",
+   "mismatch": 0.1358,
+   "dy_pt": -80.0,
+   "img": "light-s-bell.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-bet",
+   "theme": "light",
+   "name": "Пари с собой",
+   "mismatch": 0.1648,
+   "dy_pt": -4.0,
+   "img": "light-s-bet.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-boss",
+   "theme": "light",
+   "name": "Босс недели",
+   "mismatch": 0.0896,
+   "dy_pt": 24.0,
+   "img": "light-s-boss.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-gift",
+   "theme": "light",
+   "name": "Подарок дня",
+   "mismatch": 0.1646,
+   "dy_pt": -4.0,
+   "img": "light-s-gift.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-goal",
+   "theme": "light",
+   "name": "Новая цель",
+   "mismatch": 0.1588,
+   "dy_pt": 24.0,
+   "img": "light-s-goal.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-goalday",
+   "theme": "light",
+   "name": "Цель дня · окно плашки",
+   "mismatch": 0.2345,
+   "dy_pt": -6.0,
+   "img": "light-s-goalday.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-homecfg",
+   "theme": "light",
+   "name": "Главный экран · настройка",
+   "mismatch": 0.1524,
+   "dy_pt": 24.0,
+   "img": "light-s-homecfg.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-karma",
+   "theme": "light",
+   "name": "Карма",
+   "mismatch": 0.1798,
+   "dy_pt": -8.0,
+   "img": "light-s-karma.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-log",
+   "theme": "light",
+   "name": "Записать дело",
+   "mismatch": 0.274,
+   "dy_pt": -6.0,
+   "img": "light-s-log.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-paths",
+   "theme": "light",
+   "name": "Пути великих",
+   "mismatch": 0.6927,
+   "dy_pt": -140.0,
+   "img": "light-s-paths.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-rems",
+   "theme": "light",
+   "name": "Напоминания",
+   "mismatch": 0.1063,
+   "dy_pt": 20.0,
+   "img": "light-s-rems.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-stats",
+   "theme": "light",
+   "name": "Статистика",
+   "mismatch": 0.67,
+   "dy_pt": -140.0,
+   "img": "light-s-stats.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-streak",
+   "theme": "light",
+   "name": "Серия · окно плашки",
+   "mismatch": 0.2424,
+   "dy_pt": -6.0,
+   "img": "light-s-streak.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-week",
+   "theme": "light",
+   "name": "Итоги недели",
+   "mismatch": 0.0631,
+   "dy_pt": 16.0,
+   "img": "light-s-week.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-weekch",
+   "theme": "light",
+   "name": "Испытание недели",
+   "mismatch": 0.0994,
+   "dy_pt": 24.0,
+   "img": "light-s-weekch.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "step-004-assertCondition-Сегодня",
+   "theme": "light",
+   "name": "step-004-assertCondition-Сегодня",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-004-assertCondition-Сегодня.jpg"
+  },
+  {
+   "id": "step-006-assertCondition-Новое_сообщение",
+   "theme": "light",
+   "name": "step-006-assertCondition-Новое_сообщение",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-006-assertCondition-Новое_сообщение.jpg"
+  },
+  {
+   "id": "step-008-assertCondition-Итоги_недели_·",
+   "theme": "light",
+   "name": "step-008-assertCondition-Итоги_недели_·",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-008-assertCondition-Итоги_недели_·.jpg"
+  },
+  {
+   "id": "step-009-assertCondition-Изменить_список",
+   "theme": "light",
+   "name": "step-009-assertCondition-Изменить_список",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-009-assertCondition-Изменить_список.jpg"
+  },
+  {
+   "id": "step-009-assertCondition-Открыть_карту",
+   "theme": "light",
+   "name": "step-009-assertCondition-Открыть_карту",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-009-assertCondition-Открыть_карту.jpg"
+  },
+  {
+   "id": "step-010-tapOnElement-Почитать",
+   "theme": "light",
+   "name": "step-010-tapOnElement-Почитать",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-010-tapOnElement-Почитать.jpg"
+  },
+  {
+   "id": "s-cal",
+   "theme": "light",
+   "name": "Календарь",
+   "mismatch": 0.1401,
+   "dy_pt": 6.0,
+   "img": "light-s-cal.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-date-form",
+   "theme": "light",
+   "name": "Важная дата · форма",
+   "mismatch": 0.0957,
+   "dy_pt": 24.0,
+   "img": "light-s-date-form.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-date",
+   "theme": "light",
+   "name": "Важная дата · карточка",
+   "mismatch": 0.1306,
+   "dy_pt": 20.0,
+   "img": "light-s-date.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-income",
+   "theme": "light",
+   "name": "Доход",
+   "mismatch": 0.1405,
+   "dy_pt": -2.0,
+   "img": "light-s-income.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-loan",
+   "theme": "light",
+   "name": "Кредит · карточка",
+   "mismatch": 0.1578,
+   "dy_pt": 24.0,
+   "img": "light-s-loan.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-loans",
+   "theme": "light",
+   "name": "Кредиты · список",
+   "mismatch": 0.1404,
+   "dy_pt": 20.0,
+   "img": "light-s-loans.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-piggy-form",
+   "theme": "light",
+   "name": "Копилка · форма",
+   "mismatch": 0.0791,
+   "dy_pt": 32.0,
+   "img": "light-s-piggy-form.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-piggy",
+   "theme": "light",
+   "name": "Копилка · карточка",
+   "mismatch": 0.1159,
+   "dy_pt": 26.0,
+   "img": "light-s-piggy.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-rem-appt",
+   "theme": "light",
+   "name": "Напоминание · визит",
+   "mismatch": 0.0988,
+   "dy_pt": 42.0,
+   "img": "light-s-rem-appt.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-rem-kind",
+   "theme": "light",
+   "name": "Напоминание · что напомнить",
+   "mismatch": 0.221,
+   "dy_pt": 42.0,
+   "img": "light-s-rem-kind.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-rem-med",
+   "theme": "light",
+   "name": "Напоминание · лекарство",
+   "mismatch": 0.119,
+   "dy_pt": 26.0,
+   "img": "light-s-rem-med.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-shifts",
+   "theme": "light",
+   "name": "Смены",
+   "mismatch": 0.1365,
+   "dy_pt": 24.0,
+   "img": "light-s-shifts.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-vac",
+   "theme": "light",
+   "name": "Отпуск",
+   "mismatch": 0.1835,
+   "dy_pt": 8.0,
+   "img": "light-s-vac.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "step-008-assertCondition-План_дня",
+   "theme": "light",
+   "name": "step-008-assertCondition-План_дня",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-008-assertCondition-План_дня.jpg"
+  },
+  {
+   "id": "s-look",
+   "theme": "light",
+   "name": "Гардероб · внешность",
+   "mismatch": 0.2072,
+   "dy_pt": 76.0,
+   "img": "light-s-look.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-profile",
+   "theme": "light",
+   "name": "Профиль · редактирование",
+   "mismatch": 0.0972,
+   "dy_pt": 34.0,
+   "img": "light-s-profile.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-settings",
+   "theme": "light",
+   "name": "Настройки",
+   "mismatch": 0.1021,
+   "dy_pt": 38.0,
+   "img": "light-s-settings.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-share-day",
+   "theme": "light",
+   "name": "Поделиться · карточка «День»",
+   "mismatch": 0.1157,
+   "dy_pt": 24.0,
+   "img": "light-s-share-day.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-share",
+   "theme": "light",
+   "name": "Поделиться",
+   "mismatch": 0.7541,
+   "dy_pt": 140.0,
+   "img": "light-s-share.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-shop",
+   "theme": "light",
+   "name": "Гардероб",
+   "mismatch": 0.3212,
+   "dy_pt": 140.0,
+   "img": "light-s-shop.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "step-009-scrollUntilVisible-Самплан_·_версия",
+   "theme": "light",
+   "name": "step-009-scrollUntilVisible-Самплан_·_версия",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-009-scrollUntilVisible-Самплан_·_версия.jpg"
+  },
+  {
+   "id": "step-010-assertCondition-Шапка_с_героем_всегда_на",
+   "theme": "light",
+   "name": "step-010-assertCondition-Шапка_с_героем_всегда_на",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-010-assertCondition-Шапка_с_героем_всегда_на.jpg"
+  },
+  {
+   "id": "step-011-assertCondition-Где_хранится",
+   "theme": "light",
+   "name": "step-011-assertCondition-Где_хранится",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-011-assertCondition-Где_хранится.jpg"
+  },
+  {
+   "id": "step-011-assertCondition-Злой_тренер",
+   "theme": "light",
+   "name": "step-011-assertCondition-Злой_тренер",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-011-assertCondition-Злой_тренер.jpg"
+  },
+  {
+   "id": "step-011-assertCondition-Начать_игру",
+   "theme": "light",
+   "name": "step-011-assertCondition-Начать_игру",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-011-assertCondition-Начать_игру.jpg"
+  },
+  {
+   "id": "s-chat",
+   "theme": "light",
+   "name": "Чат",
+   "mismatch": 0.0539,
+   "dy_pt": 98.0,
+   "img": "light-s-chat.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-chats",
+   "theme": "light",
+   "name": "Сообщения",
+   "mismatch": 0.0355,
+   "dy_pt": 22.0,
+   "img": "light-s-chats.jpg",
+   "grade": "match"
+  },
+  {
+   "id": "s-code",
+   "theme": "light",
+   "name": "Вызов по коду (карточка на «Вызовах»)",
+   "mismatch": 0.1626,
+   "dy_pt": -104.0,
+   "img": "light-s-code.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-feedcfg",
+   "theme": "light",
+   "name": "Настройки ленты",
+   "mismatch": 0.7641,
+   "dy_pt": 72.0,
+   "img": "light-s-feedcfg.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-friends",
+   "theme": "light",
+   "name": "Друзья",
+   "mismatch": 0.1959,
+   "dy_pt": 52.0,
+   "img": "light-s-friends.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-jury",
+   "theme": "light",
+   "name": "Суд присяжных",
+   "mismatch": 0.7711,
+   "dy_pt": 16.0,
+   "img": "light-s-jury.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-newch",
+   "theme": "light",
+   "name": "Новый вызов",
+   "mismatch": 0.1274,
+   "dy_pt": 22.0,
+   "img": "light-s-newch.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-player",
+   "theme": "light",
+   "name": "Профиль игрока",
+   "mismatch": 0.0721,
+   "dy_pt": 24.0,
+   "img": "light-s-player.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-post",
+   "theme": "light",
+   "name": "Новая запись",
+   "mismatch": 0.7168,
+   "dy_pt": 140.0,
+   "img": "light-s-post.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-rate",
+   "theme": "light",
+   "name": "Рейтинг недели",
+   "mismatch": 0.6929,
+   "dy_pt": -136.0,
+   "img": "light-s-rate.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-report",
+   "theme": "light",
+   "name": "Жалоба",
+   "mismatch": 0.6008,
+   "dy_pt": -114.0,
+   "img": "light-s-report.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "step-013-assertCondition-Ближе",
+   "theme": "light",
+   "name": "step-013-assertCondition-Ближе",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-013-assertCondition-Ближе.jpg"
+  },
+  {
+   "id": "tab-ch",
+   "theme": "light",
+   "name": "Вызовы · Мои",
+   "mismatch": 0.0949,
+   "dy_pt": 34.0,
+   "img": "light-tab-ch.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "tab-day",
+   "theme": "light",
+   "name": "Сегодня (главная)",
+   "mismatch": 0.1131,
+   "dy_pt": 24.0,
+   "img": "light-tab-day.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "tab-feed",
+   "theme": "light",
+   "name": "Люди · Лента",
+   "mismatch": 0.1436,
+   "dy_pt": 50.0,
+   "img": "light-tab-feed.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "tab-life",
+   "theme": "light",
+   "name": "Дела",
+   "mismatch": 0.1097,
+   "dy_pt": -4.0,
+   "img": "light-tab-life.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "tab-map",
+   "theme": "light",
+   "name": "Вызовы · Карта",
+   "mismatch": 0.3077,
+   "dy_pt": 42.0,
+   "img": "light-tab-map.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "tab-me",
+   "theme": "light",
+   "name": "Профиль",
+   "mismatch": 0.0723,
+   "dy_pt": 22.0,
+   "img": "light-tab-me.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "tab-ppl",
+   "theme": "light",
+   "name": "Люди",
+   "mismatch": 0.0482,
+   "dy_pt": 20.0,
+   "img": "light-tab-ppl.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-ach",
+   "theme": "dark",
+   "name": "Награды · окно плашки",
+   "mismatch": 0.081,
+   "dy_pt": -2.0,
+   "img": "dark-s-ach.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-bell",
+   "theme": "dark",
+   "name": "Уведомления",
+   "mismatch": 0.1608,
+   "dy_pt": 0.0,
+   "img": "dark-s-bell.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-bet",
+   "theme": "dark",
+   "name": "Пари с собой",
+   "mismatch": 0.0848,
+   "dy_pt": -4.0,
+   "img": "dark-s-bet.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-boss",
+   "theme": "dark",
+   "name": "Босс недели",
+   "mismatch": 0.0629,
+   "dy_pt": 24.0,
+   "img": "dark-s-boss.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-gift",
+   "theme": "dark",
+   "name": "Подарок дня",
+   "mismatch": 0.0944,
+   "dy_pt": -4.0,
+   "img": "dark-s-gift.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-goal",
+   "theme": "dark",
+   "name": "Новая цель",
+   "mismatch": 0.136,
+   "dy_pt": -38.0,
+   "img": "dark-s-goal.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-goalday",
+   "theme": "dark",
+   "name": "Цель дня · окно плашки",
+   "mismatch": 0.0973,
+   "dy_pt": -4.0,
+   "img": "dark-s-goalday.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-homecfg",
+   "theme": "dark",
+   "name": "Главный экран · настройка",
+   "mismatch": 0.1347,
+   "dy_pt": 24.0,
+   "img": "dark-s-homecfg.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-karma",
+   "theme": "dark",
+   "name": "Карма",
+   "mismatch": 0.0766,
+   "dy_pt": -6.0,
+   "img": "dark-s-karma.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-log",
+   "theme": "dark",
+   "name": "Записать дело",
+   "mismatch": 0.1741,
+   "dy_pt": -24.0,
+   "img": "dark-s-log.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-paths",
+   "theme": "dark",
+   "name": "Пути великих",
+   "mismatch": 0.045,
+   "dy_pt": 24.0,
+   "img": "dark-s-paths.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-rems",
+   "theme": "dark",
+   "name": "Напоминания",
+   "mismatch": 0.0853,
+   "dy_pt": 20.0,
+   "img": "dark-s-rems.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-stats",
+   "theme": "dark",
+   "name": "Статистика",
+   "mismatch": 0.05,
+   "dy_pt": 30.0,
+   "img": "dark-s-stats.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-streak",
+   "theme": "dark",
+   "name": "Серия · окно плашки",
+   "mismatch": 0.0686,
+   "dy_pt": -6.0,
+   "img": "dark-s-streak.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-week",
+   "theme": "dark",
+   "name": "Итоги недели",
+   "mismatch": 0.0437,
+   "dy_pt": 16.0,
+   "img": "dark-s-week.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-weekch",
+   "theme": "dark",
+   "name": "Испытание недели",
+   "mismatch": 0.0719,
+   "dy_pt": 26.0,
+   "img": "dark-s-weekch.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "step-006-assertCondition-Новое_сообщение",
+   "theme": "dark",
+   "name": "step-006-assertCondition-Новое_сообщение",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-006-assertCondition-Новое_сообщение.jpg"
+  },
+  {
+   "id": "step-008-assertCondition-Итоги_недели_·",
+   "theme": "dark",
+   "name": "step-008-assertCondition-Итоги_недели_·",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-008-assertCondition-Итоги_недели_·.jpg"
+  },
+  {
+   "id": "step-009-assertCondition-Изменить_список",
+   "theme": "dark",
+   "name": "step-009-assertCondition-Изменить_список",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-009-assertCondition-Изменить_список.jpg"
+  },
+  {
+   "id": "step-009-assertCondition-Открыть_карту",
+   "theme": "dark",
+   "name": "step-009-assertCondition-Открыть_карту",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-009-assertCondition-Открыть_карту.jpg"
+  },
+  {
+   "id": "step-010-tapOnElement-Почитать",
+   "theme": "dark",
+   "name": "step-010-tapOnElement-Почитать",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-010-tapOnElement-Почитать.jpg"
+  },
+  {
+   "id": "s-cal",
+   "theme": "dark",
+   "name": "Календарь",
+   "mismatch": 0.0704,
+   "dy_pt": 6.0,
+   "img": "dark-s-cal.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-date-form",
+   "theme": "dark",
+   "name": "Важная дата · форма",
+   "mismatch": 0.0747,
+   "dy_pt": 44.0,
+   "img": "dark-s-date-form.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-date",
+   "theme": "dark",
+   "name": "Важная дата · карточка",
+   "mismatch": 0.1291,
+   "dy_pt": 22.0,
+   "img": "dark-s-date.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-income",
+   "theme": "dark",
+   "name": "Доход",
+   "mismatch": 0.0781,
+   "dy_pt": -2.0,
+   "img": "dark-s-income.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-loan",
+   "theme": "dark",
+   "name": "Кредит · карточка",
+   "mismatch": 0.143,
+   "dy_pt": -8.0,
+   "img": "dark-s-loan.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-loans",
+   "theme": "dark",
+   "name": "Кредиты · список",
+   "mismatch": 0.1211,
+   "dy_pt": 18.0,
+   "img": "dark-s-loans.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-piggy-form",
+   "theme": "dark",
+   "name": "Копилка · форма",
+   "mismatch": 0.0681,
+   "dy_pt": 32.0,
+   "img": "dark-s-piggy-form.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-piggy",
+   "theme": "dark",
+   "name": "Копилка · карточка",
+   "mismatch": 0.1001,
+   "dy_pt": 26.0,
+   "img": "dark-s-piggy.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-rem-appt",
+   "theme": "dark",
+   "name": "Напоминание · визит",
+   "mismatch": 0.0773,
+   "dy_pt": 44.0,
+   "img": "dark-s-rem-appt.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-rem-kind",
+   "theme": "dark",
+   "name": "Напоминание · что напомнить",
+   "mismatch": 0.0849,
+   "dy_pt": 42.0,
+   "img": "dark-s-rem-kind.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-rem-med",
+   "theme": "dark",
+   "name": "Напоминание · лекарство",
+   "mismatch": 0.0918,
+   "dy_pt": 28.0,
+   "img": "dark-s-rem-med.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-shifts",
+   "theme": "dark",
+   "name": "Смены",
+   "mismatch": 0.1125,
+   "dy_pt": 4.0,
+   "img": "dark-s-shifts.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-vac",
+   "theme": "dark",
+   "name": "Отпуск",
+   "mismatch": 0.1203,
+   "dy_pt": 8.0,
+   "img": "dark-s-vac.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "step-008-assertCondition-План_дня",
+   "theme": "dark",
+   "name": "step-008-assertCondition-План_дня",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-008-assertCondition-План_дня.jpg"
+  },
+  {
+   "id": "s-look",
+   "theme": "dark",
+   "name": "Гардероб · внешность",
+   "mismatch": 0.1826,
+   "dy_pt": 76.0,
+   "img": "dark-s-look.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-profile",
+   "theme": "dark",
+   "name": "Профиль · редактирование",
+   "mismatch": 0.0709,
+   "dy_pt": 34.0,
+   "img": "dark-s-profile.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-settings",
+   "theme": "dark",
+   "name": "Настройки",
+   "mismatch": 0.0797,
+   "dy_pt": 40.0,
+   "img": "dark-s-settings.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-share-day",
+   "theme": "dark",
+   "name": "Поделиться · карточка «День»",
+   "mismatch": 0.0874,
+   "dy_pt": 24.0,
+   "img": "dark-s-share-day.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-share",
+   "theme": "dark",
+   "name": "Поделиться",
+   "mismatch": 0.1485,
+   "dy_pt": 24.0,
+   "img": "dark-s-share.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-shop",
+   "theme": "dark",
+   "name": "Гардероб",
+   "mismatch": 0.1922,
+   "dy_pt": 130.0,
+   "img": "dark-s-shop.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "step-009-scrollUntilVisible-Самплан_·_версия",
+   "theme": "dark",
+   "name": "step-009-scrollUntilVisible-Самплан_·_версия",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-009-scrollUntilVisible-Самплан_·_версия.jpg"
+  },
+  {
+   "id": "step-010-assertCondition-Шапка_с_героем_всегда_на",
+   "theme": "dark",
+   "name": "step-010-assertCondition-Шапка_с_героем_всегда_на",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-010-assertCondition-Шапка_с_героем_всегда_на.jpg"
+  },
+  {
+   "id": "step-011-assertCondition-Где_хранится",
+   "theme": "dark",
+   "name": "step-011-assertCondition-Где_хранится",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-011-assertCondition-Где_хранится.jpg"
+  },
+  {
+   "id": "step-011-assertCondition-Злой_тренер",
+   "theme": "dark",
+   "name": "step-011-assertCondition-Злой_тренер",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-011-assertCondition-Злой_тренер.jpg"
+  },
+  {
+   "id": "step-011-assertCondition-Начать_игру",
+   "theme": "dark",
+   "name": "step-011-assertCondition-Начать_игру",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-011-assertCondition-Начать_игру.jpg"
+  },
+  {
+   "id": "s-chat",
+   "theme": "dark",
+   "name": "Чат",
+   "mismatch": 0.0555,
+   "dy_pt": 98.0,
+   "img": "dark-s-chat.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-chats",
+   "theme": "dark",
+   "name": "Сообщения",
+   "mismatch": 0.0365,
+   "dy_pt": 22.0,
+   "img": "dark-s-chats.jpg",
+   "grade": "match"
+  },
+  {
+   "id": "s-code",
+   "theme": "dark",
+   "name": "Вызов по коду (карточка на «Вызовах»)",
+   "mismatch": 0.1736,
+   "dy_pt": -104.0,
+   "img": "dark-s-code.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-feedcfg",
+   "theme": "dark",
+   "name": "Настройки ленты",
+   "mismatch": 0.0986,
+   "dy_pt": 20.0,
+   "img": "dark-s-feedcfg.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-friends",
+   "theme": "dark",
+   "name": "Друзья",
+   "mismatch": 0.1525,
+   "dy_pt": 2.0,
+   "img": "dark-s-friends.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-jury",
+   "theme": "dark",
+   "name": "Суд присяжных",
+   "mismatch": 0.0631,
+   "dy_pt": 8.0,
+   "img": "dark-s-jury.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-map-full",
+   "theme": "dark",
+   "name": "Карта на весь экран",
+   "mismatch": 0.1905,
+   "dy_pt": -12.0,
+   "img": "dark-s-map-full.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "s-newch",
+   "theme": "dark",
+   "name": "Новый вызов",
+   "mismatch": 0.0859,
+   "dy_pt": 24.0,
+   "img": "dark-s-newch.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-player",
+   "theme": "dark",
+   "name": "Профиль игрока",
+   "mismatch": 0.0588,
+   "dy_pt": 24.0,
+   "img": "dark-s-player.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-post",
+   "theme": "dark",
+   "name": "Новая запись",
+   "mismatch": 0.0861,
+   "dy_pt": -4.0,
+   "img": "dark-s-post.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-rate",
+   "theme": "dark",
+   "name": "Рейтинг недели",
+   "mismatch": 0.0601,
+   "dy_pt": 8.0,
+   "img": "dark-s-rate.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-report",
+   "theme": "dark",
+   "name": "Жалоба",
+   "mismatch": 0.0925,
+   "dy_pt": 4.0,
+   "img": "dark-s-report.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "tab-ch",
+   "theme": "dark",
+   "name": "Вызовы · Мои",
+   "mismatch": 0.1802,
+   "dy_pt": 22.0,
+   "img": "dark-tab-ch.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "tab-day",
+   "theme": "dark",
+   "name": "Сегодня (главная)",
+   "mismatch": 0.1211,
+   "dy_pt": 24.0,
+   "img": "dark-tab-day.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "tab-feed",
+   "theme": "dark",
+   "name": "Люди · Лента",
+   "mismatch": 0.1594,
+   "dy_pt": -108.0,
+   "img": "dark-tab-feed.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "tab-life",
+   "theme": "dark",
+   "name": "Дела",
+   "mismatch": 0.1298,
+   "dy_pt": 12.0,
+   "img": "dark-tab-life.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "tab-map",
+   "theme": "dark",
+   "name": "Вызовы · Карта",
+   "mismatch": 0.1623,
+   "dy_pt": 24.0,
+   "img": "dark-tab-map.jpg",
+   "grade": "off"
+  },
+  {
+   "id": "tab-me",
+   "theme": "dark",
+   "name": "Профиль",
+   "mismatch": 0.0611,
+   "dy_pt": 22.0,
+   "img": "dark-tab-me.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "tab-ppl",
+   "theme": "dark",
+   "name": "Люди",
+   "mismatch": 0.079,
+   "dy_pt": 60.0,
+   "img": "dark-tab-ppl.jpg",
+   "grade": "close"
+  }
+ ],
  "flows": {
-  "light": [],
-  "dark": []
+  "light": [
+   {
+    "flow": "home-avatar",
+    "ok": false,
+    "why": "Assertion is false: \"Сегодня\" is visible"
+   },
+   {
+    "flow": "home-bell-go",
+    "ok": false,
+    "why": "Assertion is false: \"Итоги недели · .*\" is visible"
+   },
+   {
+    "flow": "home-bell",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-chats-button",
+    "ok": false,
+    "why": "Assertion is false: \"Новое сообщение\" is visible"
+   },
+   {
+    "flow": "home-gift",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-goal-bet",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-head",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-log",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-map",
+    "ok": false,
+    "why": "Assertion is false: \"Открыть карту\" is visible"
+   },
+   {
+    "flow": "home-paths",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-read",
+    "ok": false,
+    "why": "Element not found: Text matching regex: Почитать, Right of: \"Понятно\""
+   },
+   {
+    "flow": "home-recap",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-rems",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-rit-pop",
+    "ok": false,
+    "why": "Assertion is false: \"Изменить список\" is visible"
+   },
+   {
+    "flow": "home-week",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-dates",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-loans",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-piggy-form",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-piggy",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-rems",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-tools",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-plan",
+    "ok": false,
+    "why": "Assertion is false: \"План дня .*\" is visible"
+   },
+   {
+    "flow": "me-about",
+    "ok": false,
+    "why": "No visible element found: \"Самплан · версия.*\""
+   },
+   {
+    "flow": "me-edit",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "me-onboard",
+    "ok": false,
+    "why": "Assertion is false: \"Начать игру\" is visible"
+   },
+   {
+    "flow": "me-privacy",
+    "ok": false,
+    "why": "Assertion is false: \"Где хранится\" is visible"
+   },
+   {
+    "flow": "me-settings-home",
+    "ok": false,
+    "why": "Assertion is false: \"Шапка с героем всегда наверху.*\" is visible"
+   },
+   {
+    "flow": "me-settings",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "me-share",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "me-voice",
+    "ok": false,
+    "why": "Assertion is false: \"Злой тренер\" is visible"
+   },
+   {
+    "flow": "me-wardrobe",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "tabs",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ch-code",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ch-map",
+    "ok": false,
+    "why": "Assertion is false: \"Ближе\" is visible"
+   },
+   {
+    "flow": "ch-new",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ppl-chat",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ppl-feed",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ppl-friends",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ppl-tiles",
+    "ok": true,
+    "why": ""
+   }
+  ],
+  "dark": [
+   {
+    "flow": "home-avatar",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-bell-go",
+    "ok": false,
+    "why": "Assertion is false: \"Итоги недели · .*\" is visible"
+   },
+   {
+    "flow": "home-bell",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-chats-button",
+    "ok": false,
+    "why": "Assertion is false: \"Новое сообщение\" is visible"
+   },
+   {
+    "flow": "home-gift",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-goal-bet",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-head",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-log",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-map",
+    "ok": false,
+    "why": "Assertion is false: \"Открыть карту\" is visible"
+   },
+   {
+    "flow": "home-paths",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-read",
+    "ok": false,
+    "why": "Element not found: Text matching regex: Почитать, Right of: \"Понятно\""
+   },
+   {
+    "flow": "home-recap",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-rems",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-rit-pop",
+    "ok": false,
+    "why": "Assertion is false: \"Изменить список\" is visible"
+   },
+   {
+    "flow": "home-week",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-dates",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-loans",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-piggy-form",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-piggy",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-rems",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "life-tools",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "home-plan",
+    "ok": false,
+    "why": "Assertion is false: \"План дня .*\" is visible"
+   },
+   {
+    "flow": "me-about",
+    "ok": false,
+    "why": "No visible element found: \"Самплан · версия.*\""
+   },
+   {
+    "flow": "me-edit",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "me-onboard",
+    "ok": false,
+    "why": "Assertion is false: \"Начать игру\" is visible"
+   },
+   {
+    "flow": "me-privacy",
+    "ok": false,
+    "why": "Assertion is false: \"Где хранится\" is visible"
+   },
+   {
+    "flow": "me-settings-home",
+    "ok": false,
+    "why": "Assertion is false: \"Шапка с героем всегда наверху.*\" is visible"
+   },
+   {
+    "flow": "me-settings",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "me-share",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "me-voice",
+    "ok": false,
+    "why": "Assertion is false: \"Злой тренер\" is visible"
+   },
+   {
+    "flow": "me-wardrobe",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "tabs",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ch-code",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ch-map",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ch-new",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ppl-chat",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ppl-feed",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ppl-friends",
+    "ok": true,
+    "why": ""
+   },
+   {
+    "flow": "ppl-tiles",
+    "ok": true,
+    "why": ""
+   }
+  ]
  }
 }
