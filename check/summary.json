@@ -4,7 +4,7 @@
    "id": "p-rit",
    "theme": "light",
    "name": "«Мой день» · мини-окно ритуалов",
-   "mismatch": 0.0495,
+   "mismatch": 0.0881,
    "dy_pt": 0.0,
    "img": "light-p-rit.jpg",
    "grade": "close"
@@ -31,7 +31,7 @@
    "id": "s-bet",
    "theme": "light",
    "name": "Пари с собой",
-   "mismatch": 0.0823,
+   "mismatch": 0.0652,
    "dy_pt": 0.0,
    "img": "light-s-bet.jpg",
    "grade": "close"
@@ -40,7 +40,7 @@
    "id": "s-boss",
    "theme": "light",
    "name": "Босс недели",
-   "mismatch": 0.078,
+   "mismatch": 0.0791,
    "dy_pt": 26.0,
    "img": "light-s-boss.jpg",
    "grade": "close"
@@ -58,7 +58,7 @@
    "id": "s-goal",
    "theme": "light",
    "name": "Новая цель",
-   "mismatch": 0.0849,
+   "mismatch": 0.0851,
    "dy_pt": 30.0,
    "img": "light-s-goal.jpg",
    "grade": "close"
@@ -76,7 +76,7 @@
    "id": "s-help",
    "theme": "light",
    "name": "Подсказка «?»",
-   "mismatch": 0.2423,
+   "mismatch": 0.2425,
    "dy_pt": 16.0,
    "img": "light-s-help.jpg",
    "grade": "off"
@@ -103,7 +103,7 @@
    "id": "s-log",
    "theme": "light",
    "name": "Записать дело",
-   "mismatch": 0.187,
+   "mismatch": 0.1869,
    "dy_pt": 0.0,
    "img": "light-s-log.jpg",
    "grade": "off"
@@ -112,25 +112,16 @@
    "id": "s-paths",
    "theme": "light",
    "name": "Пути великих",
-   "mismatch": 0.05,
+   "mismatch": 0.0501,
    "dy_pt": 24.0,
    "img": "light-s-paths.jpg",
-   "grade": "close"
-  },
-  {
-   "id": "s-pmini",
-   "theme": "light",
-   "name": "Мини-профиль",
-   "mismatch": 0.0605,
-   "dy_pt": 2.0,
-   "img": "light-s-pmini.jpg",
    "grade": "close"
   },
   {
    "id": "s-read",
    "theme": "light",
    "name": "Почитать",
-   "mismatch": 0.0544,
+   "mismatch": 0.0469,
    "dy_pt": 8.0,
    "img": "light-s-read.jpg",
    "grade": "close"
@@ -139,7 +130,7 @@
    "id": "s-rems",
    "theme": "light",
    "name": "Напоминания",
-   "mismatch": 0.0696,
+   "mismatch": 0.0695,
    "dy_pt": 26.0,
    "img": "light-s-rems.jpg",
    "grade": "close"
@@ -180,12 +171,12 @@
    "img": "light-step-005-assertCondition-[_s_S](нов(оеых)_событип.jpg"
   },
   {
-   "id": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
+   "id": "step-008-assertCondition-Открыть_полный_профиль",
    "theme": "light",
-   "name": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
+   "name": "step-008-assertCondition-Открыть_полный_профиль",
    "mismatch": null,
    "grade": "no-ref",
-   "img": "light-step-006-assertCondition-[_s_S](нов(оеых)_событип.jpg"
+   "img": "light-step-008-assertCondition-Открыть_полный_профиль.jpg"
   },
   {
    "id": "ch-intro",
@@ -224,7 +215,7 @@
    "id": "s-date-form",
    "theme": "light",
    "name": "Важная дата · форма",
-   "mismatch": 0.0298,
+   "mismatch": 0.0288,
    "dy_pt": 24.0,
    "img": "light-s-date-form.jpg",
    "grade": "match"
@@ -233,7 +224,7 @@
    "id": "s-date",
    "theme": "light",
    "name": "Важная дата · карточка",
-   "mismatch": 0.113,
+   "mismatch": 0.1127,
    "dy_pt": 24.0,
    "img": "light-s-date.jpg",
    "grade": "close"
@@ -269,7 +260,7 @@
    "id": "s-piggy-form",
    "theme": "light",
    "name": "Копилка · форма",
-   "mismatch": 0.0335,
+   "mismatch": 0.0331,
    "dy_pt": 26.0,
    "img": "light-s-piggy-form.jpg",
    "grade": "match"
@@ -278,10 +269,19 @@
    "id": "s-piggy",
    "theme": "light",
    "name": "Копилка · карточка",
-   "mismatch": 0.0539,
+   "mismatch": 0.054,
    "dy_pt": 26.0,
    "img": "light-s-piggy.jpg",
    "grade": "close"
+  },
+  {
+   "id": "s-plan",
+   "theme": "light",
+   "name": "План дня",
+   "mismatch": 0.2935,
+   "dy_pt": 0.0,
+   "img": "light-s-plan.jpg",
+   "grade": "off"
   },
   {
    "id": "s-rem-appt",
@@ -338,6 +338,14 @@
    "grade": "close"
   },
   {
+   "id": "step-005-assertCondition-[_s_S](нов(оеых)_событип",
+   "theme": "light",
+   "name": "step-005-assertCondition-[_s_S](нов(оеых)_событип",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-005-assertCondition-[_s_S](нов(оеых)_событип.jpg"
+  },
+  {
    "id": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
    "theme": "light",
    "name": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
@@ -346,20 +354,20 @@
    "img": "light-step-006-assertCondition-[_s_S](нов(оеых)_событип.jpg"
   },
   {
+   "id": "step-022-assertCondition-Забрать",
+   "theme": "light",
+   "name": "step-022-assertCondition-Забрать",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-022-assertCondition-Забрать.jpg"
+  },
+  {
    "id": "step-026-assertCondition-Забрать",
    "theme": "light",
    "name": "step-026-assertCondition-Забрать",
    "mismatch": null,
    "grade": "no-ref",
    "img": "light-step-026-assertCondition-Забрать.jpg"
-  },
-  {
-   "id": "step-028-assertCondition-План_дня",
-   "theme": "light",
-   "name": "step-028-assertCondition-План_дня",
-   "mismatch": null,
-   "grade": "no-ref",
-   "img": "light-step-028-assertCondition-План_дня.jpg"
   },
   {
    "id": "s-about",
@@ -374,10 +382,10 @@
    "id": "s-look",
    "theme": "light",
    "name": "Гардероб · внешность",
-   "mismatch": 0.1761,
+   "mismatch": 0.0374,
    "dy_pt": 24.0,
    "img": "light-s-look.jpg",
-   "grade": "off"
+   "grade": "match"
   },
   {
    "id": "s-privacy",
@@ -410,7 +418,7 @@
    "id": "s-share-day",
    "theme": "light",
    "name": "Поделиться · карточка «День»",
-   "mismatch": 0.1132,
+   "mismatch": 0.061,
    "dy_pt": 24.0,
    "img": "light-s-share-day.jpg",
    "grade": "close"
@@ -419,7 +427,7 @@
    "id": "s-share",
    "theme": "light",
    "name": "Поделиться",
-   "mismatch": 0.0981,
+   "mismatch": 0.0459,
    "dy_pt": 24.0,
    "img": "light-s-share.jpg",
    "grade": "close"
@@ -428,10 +436,10 @@
    "id": "s-shop",
    "theme": "light",
    "name": "Гардероб",
-   "mismatch": 0.3019,
-   "dy_pt": 44.0,
+   "mismatch": 0.0621,
+   "dy_pt": 26.0,
    "img": "light-s-shop.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-voice",
@@ -464,16 +472,16 @@
    "id": "s-code",
    "theme": "light",
    "name": "Вызов по коду (карточка на «Вызовах»)",
-   "mismatch": 0.1728,
-   "dy_pt": -116.0,
+   "mismatch": 0.0399,
+   "dy_pt": 82.0,
    "img": "light-s-code.jpg",
-   "grade": "off"
+   "grade": "match"
   },
   {
    "id": "s-feedcfg",
    "theme": "light",
    "name": "Настройки ленты",
-   "mismatch": 0.1104,
+   "mismatch": 0.1105,
    "dy_pt": 16.0,
    "img": "light-s-feedcfg.jpg",
    "grade": "close"
@@ -500,8 +508,8 @@
    "id": "s-map-full",
    "theme": "light",
    "name": "Карта на весь экран",
-   "mismatch": 0.5502,
-   "dy_pt": 24.0,
+   "mismatch": 0.1445,
+   "dy_pt": -12.0,
    "img": "light-s-map-full.jpg",
    "grade": "off"
   },
@@ -527,7 +535,7 @@
    "id": "s-post",
    "theme": "light",
    "name": "Новая запись",
-   "mismatch": 0.1141,
+   "mismatch": 0.1178,
    "dy_pt": 30.0,
    "img": "light-s-post.jpg",
    "grade": "close"
@@ -562,10 +570,10 @@
    "id": "tab-ch",
    "theme": "light",
    "name": "Вызовы · Мои",
-   "mismatch": 0.0389,
+   "mismatch": 0.0481,
    "dy_pt": 24.0,
    "img": "light-tab-ch.jpg",
-   "grade": "match"
+   "grade": "close"
   },
   {
    "id": "tab-day",
@@ -580,10 +588,10 @@
    "id": "tab-feed",
    "theme": "light",
    "name": "Люди · Лента",
-   "mismatch": 0.1344,
-   "dy_pt": 140.0,
+   "mismatch": 0.1183,
+   "dy_pt": 0.0,
    "img": "light-tab-feed.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "tab-life",
@@ -598,10 +606,10 @@
    "id": "tab-map",
    "theme": "light",
    "name": "Вызовы · Карта",
-   "mismatch": 0.1455,
+   "mismatch": 0.0691,
    "dy_pt": 24.0,
    "img": "light-tab-map.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "tab-me",
@@ -625,10 +633,10 @@
    "id": "p-rit",
    "theme": "dark",
    "name": "«Мой день» · мини-окно ритуалов",
-   "mismatch": 0.1085,
-   "dy_pt": 0.0,
+   "mismatch": 0.1731,
+   "dy_pt": -90.0,
    "img": "dark-p-rit.jpg",
-   "grade": "close"
+   "grade": "off"
   },
   {
    "id": "s-ach",
@@ -652,7 +660,7 @@
    "id": "s-bet",
    "theme": "dark",
    "name": "Пари с собой",
-   "mismatch": 0.062,
+   "mismatch": 0.0584,
    "dy_pt": 0.0,
    "img": "dark-s-bet.jpg",
    "grade": "close"
@@ -661,7 +669,7 @@
    "id": "s-boss",
    "theme": "dark",
    "name": "Босс недели",
-   "mismatch": 0.0666,
+   "mismatch": 0.0516,
    "dy_pt": 26.0,
    "img": "dark-s-boss.jpg",
    "grade": "close"
@@ -679,7 +687,7 @@
    "id": "s-goal",
    "theme": "dark",
    "name": "Новая цель",
-   "mismatch": 0.0694,
+   "mismatch": 0.0692,
    "dy_pt": 30.0,
    "img": "dark-s-goal.jpg",
    "grade": "close"
@@ -697,7 +705,7 @@
    "id": "s-help",
    "theme": "dark",
    "name": "Подсказка «?»",
-   "mismatch": 0.0977,
+   "mismatch": 0.107,
    "dy_pt": 16.0,
    "img": "dark-s-help.jpg",
    "grade": "close"
@@ -733,7 +741,7 @@
    "id": "s-paths",
    "theme": "dark",
    "name": "Пути великих",
-   "mismatch": 0.0429,
+   "mismatch": 0.0428,
    "dy_pt": 24.0,
    "img": "dark-s-paths.jpg",
    "grade": "close"
@@ -742,7 +750,7 @@
    "id": "s-pmini",
    "theme": "dark",
    "name": "Мини-профиль",
-   "mismatch": 0.0535,
+   "mismatch": 0.0455,
    "dy_pt": 2.0,
    "img": "dark-s-pmini.jpg",
    "grade": "close"
@@ -751,7 +759,7 @@
    "id": "s-read",
    "theme": "dark",
    "name": "Почитать",
-   "mismatch": 0.0355,
+   "mismatch": 0.0363,
    "dy_pt": 8.0,
    "img": "dark-s-read.jpg",
    "grade": "match"
@@ -760,7 +768,7 @@
    "id": "s-rems",
    "theme": "dark",
    "name": "Напоминания",
-   "mismatch": 0.0503,
+   "mismatch": 0.0504,
    "dy_pt": 26.0,
    "img": "dark-s-rems.jpg",
    "grade": "close"
@@ -769,7 +777,7 @@
    "id": "s-stats",
    "theme": "dark",
    "name": "Статистика",
-   "mismatch": 0.0307,
+   "mismatch": 0.0309,
    "dy_pt": 24.0,
    "img": "dark-s-stats.jpg",
    "grade": "match"
@@ -787,7 +795,7 @@
    "id": "s-weekch",
    "theme": "dark",
    "name": "Испытание недели",
-   "mismatch": 0.0417,
+   "mismatch": 0.0416,
    "dy_pt": 26.0,
    "img": "dark-s-weekch.jpg",
    "grade": "close"
@@ -799,14 +807,6 @@
    "mismatch": null,
    "grade": "no-ref",
    "img": "dark-step-005-assertCondition-[_s_S](нов(оеых)_событип.jpg"
-  },
-  {
-   "id": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
-   "theme": "dark",
-   "name": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
-   "mismatch": null,
-   "grade": "no-ref",
-   "img": "dark-step-006-assertCondition-[_s_S](нов(оеых)_событип.jpg"
   },
   {
    "id": "ch-intro",
@@ -845,7 +845,7 @@
    "id": "s-date-form",
    "theme": "dark",
    "name": "Важная дата · форма",
-   "mismatch": 0.0232,
+   "mismatch": 0.0217,
    "dy_pt": 24.0,
    "img": "dark-s-date-form.jpg",
    "grade": "match"
@@ -854,7 +854,7 @@
    "id": "s-date",
    "theme": "dark",
    "name": "Важная дата · карточка",
-   "mismatch": 0.0993,
+   "mismatch": 0.0985,
    "dy_pt": 24.0,
    "img": "dark-s-date.jpg",
    "grade": "close"
@@ -890,7 +890,7 @@
    "id": "s-piggy-form",
    "theme": "dark",
    "name": "Копилка · форма",
-   "mismatch": 0.0245,
+   "mismatch": 0.0259,
    "dy_pt": 26.0,
    "img": "dark-s-piggy-form.jpg",
    "grade": "match"
@@ -902,6 +902,15 @@
    "mismatch": 0.0455,
    "dy_pt": 26.0,
    "img": "dark-s-piggy.jpg",
+   "grade": "close"
+  },
+  {
+   "id": "s-plan",
+   "theme": "dark",
+   "name": "План дня",
+   "mismatch": 0.0665,
+   "dy_pt": 0.0,
+   "img": "dark-s-plan.jpg",
    "grade": "close"
   },
   {
@@ -944,7 +953,7 @@
    "id": "s-vac",
    "theme": "dark",
    "name": "Отпуск",
-   "mismatch": 0.0487,
+   "mismatch": 0.0486,
    "dy_pt": 0.0,
    "img": "dark-s-vac.jpg",
    "grade": "close"
@@ -959,12 +968,12 @@
    "grade": "match"
   },
   {
-   "id": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
+   "id": "step-022-assertCondition-Забрать",
    "theme": "dark",
-   "name": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
+   "name": "step-022-assertCondition-Забрать",
    "mismatch": null,
    "grade": "no-ref",
-   "img": "dark-step-006-assertCondition-[_s_S](нов(оеых)_событип.jpg"
+   "img": "dark-step-022-assertCondition-Забрать.jpg"
   },
   {
    "id": "step-026-assertCondition-Забрать",
@@ -975,29 +984,12 @@
    "img": "dark-step-026-assertCondition-Забрать.jpg"
   },
   {
-   "id": "step-028-assertCondition-План_дня",
-   "theme": "dark",
-   "name": "step-028-assertCondition-План_дня",
-   "mismatch": null,
-   "grade": "no-ref",
-   "img": "dark-step-028-assertCondition-План_дня.jpg"
-  },
-  {
    "id": "s-about",
    "theme": "dark",
    "name": "О приложении",
    "mismatch": 0.1321,
    "dy_pt": 26.0,
    "img": "dark-s-about.jpg",
-   "grade": "off"
-  },
-  {
-   "id": "s-look",
-   "theme": "dark",
-   "name": "Гардероб · внешность",
-   "mismatch": 0.1524,
-   "dy_pt": 24.0,
-   "img": "dark-s-look.jpg",
    "grade": "off"
   },
   {
@@ -1019,40 +1011,31 @@
    "grade": "close"
   },
   {
-   "id": "s-settings",
-   "theme": "dark",
-   "name": "Настройки",
-   "mismatch": 0.0849,
-   "dy_pt": 26.0,
-   "img": "dark-s-settings.jpg",
-   "grade": "close"
-  },
-  {
    "id": "s-share-day",
    "theme": "dark",
    "name": "Поделиться · карточка «День»",
-   "mismatch": 0.0835,
+   "mismatch": 0.0393,
    "dy_pt": 24.0,
    "img": "dark-s-share-day.jpg",
-   "grade": "close"
+   "grade": "match"
   },
   {
    "id": "s-share",
    "theme": "dark",
    "name": "Поделиться",
-   "mismatch": 0.1446,
+   "mismatch": 0.1006,
    "dy_pt": 24.0,
    "img": "dark-s-share.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-shop",
    "theme": "dark",
    "name": "Гардероб",
-   "mismatch": 0.1439,
+   "mismatch": 0.035,
    "dy_pt": 24.0,
    "img": "dark-s-shop.jpg",
-   "grade": "off"
+   "grade": "match"
   },
   {
    "id": "s-voice",
@@ -1062,6 +1045,14 @@
    "dy_pt": 30.0,
    "img": "dark-s-voice.jpg",
    "grade": "close"
+  },
+  {
+   "id": "step-004-assertCondition-Сегодня",
+   "theme": "dark",
+   "name": "step-004-assertCondition-Сегодня",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-004-assertCondition-Сегодня.jpg"
   },
   {
    "id": "s-chat",
@@ -1080,15 +1071,6 @@
    "dy_pt": 22.0,
    "img": "dark-s-chats.jpg",
    "grade": "match"
-  },
-  {
-   "id": "s-code",
-   "theme": "dark",
-   "name": "Вызов по коду (карточка на «Вызовах»)",
-   "mismatch": 0.1759,
-   "dy_pt": -118.0,
-   "img": "dark-s-code.jpg",
-   "grade": "off"
   },
   {
    "id": "s-feedcfg",
@@ -1121,10 +1103,10 @@
    "id": "s-map-full",
    "theme": "dark",
    "name": "Карта на весь экран",
-   "mismatch": 0.1912,
+   "mismatch": 0.058,
    "dy_pt": -12.0,
    "img": "dark-s-map-full.jpg",
-   "grade": "off"
+   "grade": "close"
   },
   {
    "id": "s-newch",
@@ -1148,7 +1130,7 @@
    "id": "s-post",
    "theme": "dark",
    "name": "Новая запись",
-   "mismatch": 0.1142,
+   "mismatch": 0.1139,
    "dy_pt": 30.0,
    "img": "dark-s-post.jpg",
    "grade": "close"
@@ -1172,12 +1154,28 @@
    "grade": "close"
   },
   {
+   "id": "step-004-assertCondition-Сегодня",
+   "theme": "dark",
+   "name": "step-004-assertCondition-Сегодня",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-004-assertCondition-Сегодня.jpg"
+  },
+  {
    "id": "step-005-assertCondition-[_s_S](нов(оеых)_событип",
    "theme": "dark",
    "name": "step-005-assertCondition-[_s_S](нов(оеых)_событип",
    "mismatch": null,
    "grade": "no-ref",
    "img": "dark-step-005-assertCondition-[_s_S](нов(оеых)_событип.jpg"
+  },
+  {
+   "id": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
+   "theme": "dark",
+   "name": "step-006-assertCondition-[_s_S](нов(оеых)_событип",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "dark-step-006-assertCondition-[_s_S](нов(оеых)_событип.jpg"
   },
   {
    "id": "tab-ch",
@@ -1201,8 +1199,8 @@
    "id": "tab-feed",
    "theme": "dark",
    "name": "Люди · Лента",
-   "mismatch": 0.1262,
-   "dy_pt": 74.0,
+   "mismatch": 0.1268,
+   "dy_pt": 70.0,
    "img": "dark-tab-feed.jpg",
    "grade": "off"
   },
@@ -1219,7 +1217,7 @@
    "id": "tab-map",
    "theme": "dark",
    "name": "Вызовы · Карта",
-   "mismatch": 0.0916,
+   "mismatch": 0.0826,
    "dy_pt": 24.0,
    "img": "dark-tab-map.jpg",
    "grade": "close"
@@ -1247,8 +1245,8 @@
   "light": [
    {
     "flow": "home-avatar",
-    "ok": true,
-    "why": ""
+    "ok": false,
+    "why": "Assertion is false: \"Открыть полный профиль\" is visible"
    },
    {
     "flow": "home-bell",
@@ -1352,8 +1350,8 @@
    },
    {
     "flow": "home-plan",
-    "ok": false,
-    "why": "Assertion is false: \"План дня .*\" is visible"
+    "ok": true,
+    "why": ""
    },
    {
     "flow": "me-onboard",
@@ -1549,8 +1547,8 @@
    },
    {
     "flow": "home-plan",
-    "ok": false,
-    "why": "Assertion is false: \"План дня .*\" is visible"
+    "ok": true,
+    "why": ""
    },
    {
     "flow": "me-onboard",
@@ -1579,8 +1577,8 @@
    },
    {
     "flow": "me-settings",
-    "ok": true,
-    "why": ""
+    "ok": false,
+    "why": "Assertion is false: \"Сегодня\" is visible"
    },
    {
     "flow": "me-share",
@@ -1604,8 +1602,8 @@
    },
    {
     "flow": "ch-code",
-    "ok": true,
-    "why": ""
+    "ok": false,
+    "why": "Assertion is false: \"Сегодня\" is visible"
    },
    {
     "flow": "ch-map",
