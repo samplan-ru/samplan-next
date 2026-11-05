@@ -1,0 +1,38 @@
+{
+ "screens": [
+  {
+   "id": "step-010-tapOnElement-(ContinueGot_itПродолжить)",
+   "theme": "light",
+   "name": "step-010-tapOnElement-(ContinueGot_itПродолжить)",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-010-tapOnElement-(ContinueGot_itПродолжить).jpg"
+  },
+  {
+   "id": "step-014-assertCondition-[_s_S](нов(оеых)_событип",
+   "theme": "light",
+   "name": "step-014-assertCondition-[_s_S](нов(оеых)_событип",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-014-assertCondition-[_s_S](нов(оеых)_событип.jpg"
+  },
+  {
+   "id": "step-026-tapOnElement-Кредиты",
+   "theme": "light",
+   "name": "step-026-tapOnElement-Кредиты",
+   "mismatch": null,
+   "grade": "no-ref",
+   "img": "light-step-026-tapOnElement-Кредиты.jpg"
+  }
+ ],
+ "flows": {
+  "light": [
+   {
+    "flow": "rec-transitions",
+    "ok": false,
+    "why": "Element not found: Text matching regex: Кредиты"
+   }
+  ],
+  "dark": []
+ }
+}

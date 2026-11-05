@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="samplan - iOS 26.2 - 6815D2BD-1E3E-47E5-9E0F-2C4C9DDCE244" tests="1" failures="1" time="76.357" timestamp="2026-11-05T07:42:54">
+    <testcase id="rec-transitions" name="rec-transitions" classname="rec-transitions" file="/Users/runner/work/prokachka-dev/prokachka-dev/native-out/ios/flows/70-rec-transitions.yaml" time="76.315" timestamp="2026-11-05T07:42:54" status="ERROR">
+      <failure>Element not found: Text matching regex: Кредиты</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
