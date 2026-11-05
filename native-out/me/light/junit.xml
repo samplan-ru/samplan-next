@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="8" failures="0" time="481.608" timestamp="2026-11-05T11:27:40">
+    <testcase id="me-about" name="me-about" classname="me-about" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-about.yaml" time="124.83" timestamp="2026-11-05T11:27:40" status="SUCCESS"/>
+    <testcase id="me-edit" name="me-edit" classname="me-edit" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-edit.yaml" time="32.425" timestamp="2026-11-05T11:29:45" status="SUCCESS"/>
+    <testcase id="me-privacy" name="me-privacy" classname="me-privacy" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-privacy.yaml" time="81.222" timestamp="2026-11-05T11:30:18" status="SUCCESS"/>
+    <testcase id="me-settings-home" name="me-settings-home" classname="me-settings-home" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-settings-home.yaml" time="43.582" timestamp="2026-11-05T11:31:39" status="SUCCESS"/>
+    <testcase id="me-settings" name="me-settings" classname="me-settings" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-settings.yaml" time="49.541" timestamp="2026-11-05T11:32:23" status="SUCCESS"/>
+    <testcase id="me-share" name="me-share" classname="me-share" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-share.yaml" time="44.959" timestamp="2026-11-05T11:33:12" status="SUCCESS"/>
+    <testcase id="me-voice" name="me-voice" classname="me-voice" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-voice.yaml" time="52.182" timestamp="2026-11-05T11:33:57" status="SUCCESS"/>
+    <testcase id="me-wardrobe" name="me-wardrobe" classname="me-wardrobe" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/50-me-wardrobe.yaml" time="52.753" timestamp="2026-11-05T11:34:49" status="SUCCESS"/>
+  </testsuite>
+</testsuites>

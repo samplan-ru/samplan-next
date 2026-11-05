@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="18" failures="0" time="737.01" timestamp="2026-11-05T11:27:16">
+    <testcase id="home-avatar" name="home-avatar" classname="home-avatar" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-avatar.yaml" time="30.306" timestamp="2026-11-05T11:27:16" status="SUCCESS"/>
+    <testcase id="home-bell" name="home-bell" classname="home-bell" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-bell.yaml" time="19.201" timestamp="2026-11-05T11:27:47" status="SUCCESS"/>
+    <testcase id="home-chats-button" name="home-chats-button" classname="home-chats-button" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-chats.yaml" time="16.948" timestamp="2026-11-05T11:28:06" status="SUCCESS"/>
+    <testcase id="home-gift" name="home-gift" classname="home-gift" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-gift.yaml" time="24.048" timestamp="2026-11-05T11:28:23" status="SUCCESS"/>
+    <testcase id="home-goal-bet" name="home-goal-bet" classname="home-goal-bet" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-goal-bet.yaml" time="67.991" timestamp="2026-11-05T11:28:47" status="SUCCESS"/>
+    <testcase id="home-head" name="home-head" classname="home-head" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-head.yaml" time="55.095" timestamp="2026-11-05T11:29:55" status="SUCCESS"/>
+    <testcase id="home-log" name="home-log" classname="home-log" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-log.yaml" time="17.411" timestamp="2026-11-05T11:30:50" status="SUCCESS"/>
+    <testcase id="home-map" name="home-map" classname="home-map" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-map.yaml" time="54.813" timestamp="2026-11-05T11:31:07" status="SUCCESS"/>
+    <testcase id="home-paths" name="home-paths" classname="home-paths" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-paths.yaml" time="42.986" timestamp="2026-11-05T11:32:02" status="SUCCESS"/>
+    <testcase id="home-read" name="home-read" classname="home-read" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-read.yaml" time="37.274" timestamp="2026-11-05T11:32:45" status="SUCCESS"/>
+    <testcase id="home-recap" name="home-recap" classname="home-recap" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-recap.yaml" time="62.712" timestamp="2026-11-05T11:33:23" status="SUCCESS"/>
+    <testcase id="home-rems" name="home-rems" classname="home-rems" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-rems.yaml" time="16.824" timestamp="2026-11-05T11:34:25" status="SUCCESS"/>
+    <testcase id="home-rit-pop" name="home-rit-pop" classname="home-rit-pop" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-rit-pop.yaml" time="78.477" timestamp="2026-11-05T11:34:42" status="SUCCESS"/>
+    <testcase id="home-week" name="home-week" classname="home-week" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/10-home-week.yaml" time="60.844" timestamp="2026-11-05T11:36:01" status="SUCCESS"/>
+    <testcase id="tap-once-late" name="tap-once-late" classname="tap-once-late" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/60-tap-once-late.yaml" time="30.004" timestamp="2026-11-05T11:37:01" status="SUCCESS"/>
+    <testcase id="tap-once-scrim" name="tap-once-scrim" classname="tap-once-scrim" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/60-tap-once-scrim.yaml" time="27.193" timestamp="2026-11-05T11:37:31" status="SUCCESS"/>
+    <testcase id="tap-once-x" name="tap-once-x" classname="tap-once-x" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/60-tap-once-x.yaml" time="29.631" timestamp="2026-11-05T11:37:59" status="SUCCESS"/>
+    <testcase id="tap-once-xs" name="tap-once-xs" classname="tap-once-xs" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/60-tap-once-xs.yaml" time="65.118" timestamp="2026-11-05T11:38:28" status="SUCCESS"/>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="9" failures="1" time="540.346" timestamp="2026-11-05T11:26:55">
+    <testcase id="life-dates" name="life-dates" classname="life-dates" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-dates.yaml" time="72.949" timestamp="2026-11-05T11:26:55" status="SUCCESS"/>
+    <testcase id="life-loans" name="life-loans" classname="life-loans" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-loans.yaml" time="31.459" timestamp="2026-11-05T11:28:08" status="SUCCESS"/>
+    <testcase id="life-piggy-form" name="life-piggy-form" classname="life-piggy-form" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-piggy-form.yaml" time="33.427" timestamp="2026-11-05T11:28:40" status="SUCCESS"/>
+    <testcase id="life-piggy" name="life-piggy" classname="life-piggy" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-piggy.yaml" time="31.783" timestamp="2026-11-05T11:29:13" status="SUCCESS"/>
+    <testcase id="life-rems" name="life-rems" classname="life-rems" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-rems.yaml" time="58.1" timestamp="2026-11-05T11:29:45" status="ERROR">
+      <failure>Assertion is false: "Куда записан" is visible</failure>
+    </testcase>
+    <testcase id="life-tools" name="life-tools" classname="life-tools" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/40-life-tools.yaml" time="51.99" timestamp="2026-11-05T11:30:43" status="SUCCESS"/>
+    <testcase id="home-bell-go" name="home-bell-go" classname="home-bell-go" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/99-home-bell-go.yaml" time="30.041" timestamp="2026-11-05T11:31:35" status="SUCCESS"/>
+    <testcase id="home-plan" name="home-plan" classname="home-plan" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/99-home-plan.yaml" time="80.62" timestamp="2026-11-05T11:32:05" status="SUCCESS"/>
+    <testcase id="me-onboard" name="me-onboard" classname="me-onboard" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/99-me-onboard.yaml" time="149.865" timestamp="2026-11-05T11:33:26" status="SUCCESS"/>
+  </testsuite>
+</testsuites>

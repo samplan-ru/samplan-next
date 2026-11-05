@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites>
+  <testsuite name="Test Suite" device="test" tests="8" failures="0" time="292.148" timestamp="2026-11-05T11:26:50">
+    <testcase id="tabs" name="tabs" classname="tabs" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/01-tabs.yaml" time="39.403" timestamp="2026-11-05T11:26:50" status="SUCCESS"/>
+    <testcase id="ch-code" name="ch-code" classname="ch-code" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/20-ch-code.yaml" time="51.778" timestamp="2026-11-05T11:27:29" status="SUCCESS"/>
+    <testcase id="ch-map" name="ch-map" classname="ch-map" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/20-ch-map.yaml" time="35.086" timestamp="2026-11-05T11:28:21" status="SUCCESS"/>
+    <testcase id="ch-new" name="ch-new" classname="ch-new" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/20-ch-new.yaml" time="17.018" timestamp="2026-11-05T11:28:56" status="SUCCESS"/>
+    <testcase id="ppl-chat" name="ppl-chat" classname="ppl-chat" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/30-ppl-chat.yaml" time="17.527" timestamp="2026-11-05T11:29:13" status="SUCCESS"/>
+    <testcase id="ppl-feed" name="ppl-feed" classname="ppl-feed" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/30-ppl-feed.yaml" time="59.435" timestamp="2026-11-05T11:29:31" status="SUCCESS"/>
+    <testcase id="ppl-friends" name="ppl-friends" classname="ppl-friends" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/30-ppl-friends.yaml" time="39.608" timestamp="2026-11-05T11:30:30" status="SUCCESS"/>
+    <testcase id="ppl-tiles" name="ppl-tiles" classname="ppl-tiles" file="/home/runner/work/prokachka-dev/prokachka-dev/tooling/native-check/flows/30-ppl-tiles.yaml" time="32.226" timestamp="2026-11-05T11:31:10" status="SUCCESS"/>
+  </testsuite>
+</testsuites>
