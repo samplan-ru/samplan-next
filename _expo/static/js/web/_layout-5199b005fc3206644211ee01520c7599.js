@@ -21,42 +21,42 @@ __d(function(g,r,i,a,m,e,d){"use strict";var t,n=Object.create,o=Object.definePr
 __d(function(g,r,i,a,m,e,d){"use strict";var t,o=Object.create,u=Object.defineProperty,c=Object.getOwnPropertyDescriptor,l=Object.getOwnPropertyNames,n=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty,b=(t,o,n,b)=>{if(o&&"object"==typeof o||"function"==typeof o)for(let p of l(o))f.call(t,p)||p===n||u(t,p,{get:()=>o[p],enumerable:!(b=c(o,p))||b.enumerable});return t},p={};((t,o)=>{for(var c in o)u(t,c,{get:o[c],enumerable:!0})})(p,{useLayoutEffect:()=>y}),m.exports=(t=p,b(u({},"__esModule",{value:!0}),t));var s=((t,c,l)=>(l=null!=t?o(n(t)):{},b(!c&&t&&t.__esModule?l:u(l,"default",{value:t,enumerable:!0}),t)))(r(d[0])),y=globalThis?.document?s.useLayoutEffect:()=>{}},406,[2039]);
 __d(function (global, require, _$$_IMPORT_DEFAULT, _$$_IMPORT_ALL, module, exports, dependencyMap) {
   module.exports = Object.assign({
-    "emptyTabBadge": "Eg7t-a_emptyTabBadge",
+    "tabBadge": "Eg7t-a_tabBadge",
     "tabContent": "Eg7t-a_tabContent",
-    "nativeTabsContainer": "Eg7t-a_nativeTabsContainer",
-    "tabText": "Eg7t-a_tabText",
     "navigationMenuRoot": "Eg7t-a_navigationMenuRoot",
+    "emptyTabBadge": "Eg7t-a_emptyTabBadge",
+    "nativeTabsContainer": "Eg7t-a_nativeTabsContainer",
     "navigationMenuTrigger": "Eg7t-a_navigationMenuTrigger",
-    "tabBadge": "Eg7t-a_tabBadge"
+    "tabText": "Eg7t-a_tabText"
   }, {
     unstable_styles: {
-      "emptyTabBadge": {
+      "tabBadge": {
         "$$css": true,
-        "_": "Eg7t-a_emptyTabBadge"
+        "_": "Eg7t-a_tabBadge"
       },
       "tabContent": {
         "$$css": true,
         "_": "Eg7t-a_tabContent"
       },
-      "nativeTabsContainer": {
-        "$$css": true,
-        "_": "Eg7t-a_nativeTabsContainer"
-      },
-      "tabText": {
-        "$$css": true,
-        "_": "Eg7t-a_tabText"
-      },
       "navigationMenuRoot": {
         "$$css": true,
         "_": "Eg7t-a_navigationMenuRoot"
+      },
+      "emptyTabBadge": {
+        "$$css": true,
+        "_": "Eg7t-a_emptyTabBadge"
+      },
+      "nativeTabsContainer": {
+        "$$css": true,
+        "_": "Eg7t-a_nativeTabsContainer"
       },
       "navigationMenuTrigger": {
         "$$css": true,
         "_": "Eg7t-a_navigationMenuTrigger"
       },
-      "tabBadge": {
+      "tabText": {
         "$$css": true,
-        "_": "Eg7t-a_tabBadge"
+        "_": "Eg7t-a_tabText"
       }
     }
   }, {});
